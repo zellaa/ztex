@@ -1,0 +1,43 @@
+\documentclass[a4paper,openany,nobib]{tufte-book}
+\usepackage{xcolor}
+\usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
+\addbibresource{refs.bib}
+\definecolor{tred}{HTML}{450000}
+\definecolor{tgray}{HTML}{161616}
+\usepackage{microtype}
+\usepackage{booktabs}
+\fancypagestyle{plain}{}
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{./pics/}}
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+\title{Sample Title}
+\author{Zella Baig}
+\publisher{\today}
+\color{tgray}
+\colorlet{darkgray}{tred}
+\begin{document}
+\frontmatter
+{\maketitle}
+\tableofcontents
+\thispagestyle{empty}
+\mainmatter
+\chapter{Chapter 1}%
+\setcounter{page}{1}
+\label{cha:Hello}
+\section{Section 1}%
+\label{sec:Section 1}
+dsayy
+hsseya\autocite{westfall}
+\section{hyee}%
+\label{sec:hyee}
+\newpage
+wassaap
+\newpage
+this is a test
+\newpage 
+test2
+\nocite{*}
+\printbibliography
+\end{document}
