@@ -1,0 +1,1 @@
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+5824/(2*4000) --dpi 13824 cmssdc7

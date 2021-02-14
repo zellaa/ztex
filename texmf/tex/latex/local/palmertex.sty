@@ -1,0 +1,103 @@
+\ProvidesPackage{palmertex}[A \LaTeX remake of Christopher Palmer's old lecture slides]
+%%%% There are some required arguments:
+%%%% \title{}
+%%%% \subtitle{}
+%%%% \author{}
+%%%% \term{}
+%%%% \course{}
+%%%% \topic{}
+%%%% \initials{}
+%%%% !! IMPORTANT !!
+%%%% ensure these lines are put in AFTER you call \maketitle:
+% \fontseries{mx}\selectfont
+% \LARGE
+%%%% Last updated 9th feb 2021
+%%%% Many thanks to Dr. Palmer for providing me with his .tex files and support
+
+%%%% page geometry
+\usepackage[a4paper,left=3.5cm,right=3.5cm,top=\dimexpr15mm+1.5\baselineskip,bottom=3cm,landscape]{geometry}
+\usepackage{pgfpages} 
+
+%%%% !! IMPORTANT !!
+%%%% UNCOMMENT THIS LINE TO GET HANDOUTS
+%\pgfpagesuselayout{2 on 1}[a4paper]
+
+%%%% tables
+\usepackage{empheq}
+
+%%%% emulate plain-tex font used
+\usepackage[12pt]{moresize}
+\usepackage[protrusion=true]{microtype}
+\usepackage[utf8]{inputenc}
+%%%% use a slightly thicker font
+\DeclareFontShape{OT1}{cmr}{mx}{n}%
+     {<->cmr10}{}
+
+%%%% time
+\usepackage[dmyyyy]{datetime}
+
+%%%% maths and physics
+\usepackage{amssymb,mathtools}
+\usepackage{physics}
+
+%%%% headers and footers
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{2pt} % header line width
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhfoffset[L]{1cm} % left extra length
+\fancyhfoffset[R]{1cm} % right extra length
+%%%% left footer with initials and date
+\lfoot{\Large \@author \: \today}
+%%%% header with course, topic, and pagenumber
+\lhead{\bf\huge\@course\hfill\MakeUppercase\@topic\hfill\thepage\vskip -8mm}
+
+%%%% custom header for titlepage; suppress pagenumbe
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+\lfoot{\Large \MakeUppercase\@initials \: \today}
+\lhead{\bf \huge \@course \hfill \MakeUppercase\@topic \hfill \vskip -8mm}
+}
+
+%%%% box margins
+\setlength{\fboxsep}{3\fboxsep}
+%%%% set line weight for box
+\setlength\fboxrule{1pt}
+%%%% lbox is the inline environment
+\newcommand*\lbox[1]{\boxed{\hspace{0em}#1\hspace{0em}}}
+%%%% cbox calls lbox in maths mode with align*
+\newenvironment{cbox}{%
+    \empheq[box=\lbox]{align*}}{\endempheq}
+
+%%%% custom titlepage
+\renewcommand*{\maketitle}{%
+  \begin{titlepage}
+	  \thispagestyle{plain} % custom header
+	  \vspace*{\fill}
+	\begin{center}%
+		\fontsize{21pt}{10pt}\selectfont % sizing for title
+		\textsc{\bf\MakeUppercase\@title\vspace{2\bigskipamount}}\\[\baselineskip] % main title
+	\textsc{\bf\@subtitle\vspace{2\bigskipamount}}\\[3\baselineskip] % subtitle
+	\textsc{\bf\@author\hspace{30mm}\@term}\\[2\baselineskip] % author and term
+\end{center}
+  \vfill
+  \end{titlepage}
+}
+
+%%%% custom snippets
+\newcommand*{\topic}[1]{\gdef\@topic{#1}} % goes in the header
+\newcommand*{\@topic}{}
+
+\newcommand*{\course}[1]{\gdef\@course{#1}} 
+\newcommand*{\@course}{}
+
+\newcommand*{\subtitle}[1]{\gdef\@subtitle{#1}}
+\newcommand*{\@subtitle}{}
+
+\newcommand*{\term}[1]{\gdef\@term{#1}}
+\newcommand*{\@term}{}
+
+\newcommand*{\initials}[1]{\gdef\@initials{#1}}
+\newcommand*{\@initials}{}
+
+\endinput

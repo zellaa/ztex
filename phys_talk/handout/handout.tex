@@ -1,0 +1,276 @@
+\documentclass[nobib]{tufte-handout}
+
+\title{Fluxions, Forces, and Fields}
+
+\author{Zella Baig}
+
+%\date{28 March 2010} % without \date command, current date is supplied
+
+%\geometry{showframe} % display margins for debugging page layout
+\usepackage[style=authoryear-ibid,backend=biber,autocite=footnote]{biblatex}
+\addbibresource{references.bib}
+\usepackage{graphicx} % allow embedded images
+  \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+  \graphicspath{{graphics/}} % set of paths to search for images
+\usepackage{amsmath}  % extended mathematics
+\usepackage{booktabs} % book-quality tables
+\usepackage{units}    % non-stacked fractions and better unit spacing
+\usepackage{multicol} % multiple column layout facilities
+\usepackage{lipsum}   % filler text
+\usepackage{fancyvrb} % extended verbatim environments
+  \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+
+% Standardize command font styles and environments
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+%\begin{abstract}
+%\noindent
+%This document serves as a brief overview of the mathematisation of physics in the modern period, and largely develops the ideas given in the associated presentation.
+%\end{abstract}
+
+%\printclassoptions
+
+This document serves as a brief overview of the mathematisation of physics in the modern period, and largely develops the ideas given in the associated presentation.
+
+
+\section{Pre-Newtonianism}\label{sec:prenewton}
+\subsection{Instruments}\label{sec:headings}
+To effectively discuss the impact which Newton had on the field of natural philosophy, we must first put into context the state of affairs preceding him. Perhaps unsurprisingly, the early modern period was an age of discovery - the time frame in which we are set immediately precedes the Industrial Revololution, for example, and as such one would expect there to be mechanisms at play as to enable these societal shifts to occur. Nevertheless, I digress.
+
+The first major shift which we must analyse is that of instrumentisation. Natural philosophy before this period had largely followed an Aristoelian (and religious) doctrine: the Heavens were perfect, and we as humans were but passive observers of God's cosmos. Astronomy was a popular study, as indeed it had been for millenia. Royal and holy obervatories were not uncommon, and the study of the behaviour of the celestial bodies was perhaps the most esteemed role a natural philosopher could have, within the mathematical disciplines of course.
+
+Thus, it follows that the key advance in this era which we discuss is the telescope, and indeed the lense itself. And when discussion the telescope, it would be remiss to leave out Galileo. Galileo was vital for societal shifts in natural philosophy for several reasons: casting doubt on scripture with his observations of decidedly imperfect phenomena (sunspots), yes, but also for demonstrating how passive observation led to ignorance. This all ties in, of course, with Copernicanism: Galileo's observations of Venus' \& the Moon's phases lended great support to the theory that the Earth was 'just' a planet. Copernicus' bastardised form of natural philosophy - one which employed \emph{mathematics} as well as \emph{measurements} was suddenly something which might have seemed appealing. And indeed, it was this very sort of natural-philosophising which Newton would come to employ with the aid of Flamsteed in order to develop his \emph{Principia}.
+
+\subsection{Baconism}\label{sec:baconism}
+Somewhat (as you shall soon see) paradoxically, when discussing the mathematics of this era, we must now shift to a look at a natural philosopher who was himself no great mathematician, and in fact could be seen as pushing mathematics away in favour of what we now refer to as \emph{the Baconian Method}; in essence inductive reasoning. Bacon's work came from views in which he saw that Nature should be interrogated, and that knowledge would only come from actively investigating. The way in which he implemented this was by drafting tables of scenarios in which some 'effect' to be investigated occured, scenarios in which it did not occur, and lastly scenarios in which the effect would vary. By comparison one could then eliminate ideas as the true forms of those effects.
+\marginnote[-0.5cm]{This is perhaps best illustrated with an example. One might wish to investigate heat, and for scenarios in which it might occur, let us list 'fire', and 'a pot of boiling water'. Now, the flame exists without any water, and similarly the water may retain heat without any light - and so we may deduce that 'heat' does not arise from either water, or light.}
+
+be converted to sidenotes.\footnote{This is a sidenote that was entered
+using the \texttt{\textbackslash footnote} command.}  If you'd like to place ancillary
+information in the margin without the sidenote mark (the superscript
+number), you can use the \Verb|\marginnote| command.\marginnote{This is a
+margin note.  Notice that there isn't a number preceding the note, and
+there is no number in the main text where this note was written.}
+
+The specification of the \Verb|\sidenote| command is:
+\begin{docspec}
+  \doccmd{sidenote[\docopt{number}][\docopt{offset}]\{\docarg{Sidenote text.}\}}
+\end{docspec}
+
+Both the \docopt{number} and \docopt{offset} arguments are optional.  If you
+provide a \docopt{number} argument, then that number will be used as the
+sidenote number.  It will change of the number of the current sidenote only and
+will not affect the numbering sequence of subsequent sidenotes.
+
+Sometimes a sidenote may run over the top of other text or graphics in the
+margin space.  If this happens, you can adjust the vertical position of the
+sidenote by providing a dimension in the \docopt{offset} argument.  Some
+examples of valid dimensions are:
+\begin{docspec}
+  \ttfamily 1.0in \qquad 2.54cm \qquad 254mm \qquad 6\Verb|\baselineskip|
+\end{docspec}
+If the dimension is positive it will push the sidenote down the page; if the
+dimension is negative, it will move the sidenote up the page.
+
+While both the \docopt{number} and \docopt{offset} arguments are optional, they
+must be provided in order.  To adjust the vertical position of the sidenote
+while leaving the sidenote number alone, use the following syntax:
+\begin{docspec}
+  \doccmd{sidenote[][\docopt{offset}]\{\docarg{Sidenote text.}\}}
+\end{docspec}
+The empty brackets tell the \Verb|\sidenote| command to use the default
+sidenote number.
+
+If you \emph{only} want to change the sidenote number, however, you may
+completely omit the \docopt{offset} argument:
+\begin{docspec}
+  \doccmd{sidenote[\docopt{number}]\{\docarg{Sidenote text.}\}}
+\end{docspec}
+
+The \Verb|\marginnote| command has a similar \docarg{offset} argument:
+\begin{docspec}
+  \doccmd{marginnote[\docopt{offset}]\{\docarg{Margin note text.}\}}
+\end{docspec}
+
+\subsection{References}
+References are placed alongside their citations as sidenotes,
+as well.  This can be accomplished using the normal \Verb|\cite|
+command.\sidenote{The first paragraph of this document includes a citation.}
+
+The complete list of references may also be printed automatically by using
+the \Verb|\bibliography| command.  (See the end of this document for an
+example.)  If you do not want to print a bibliography at the end of your
+document, use the \Verb|\nobibliography| command in its place.  
+
+To enter multiple citations at one location,\autocite{Tufte2006,Tufte1990} you can
+provide a list of keys separated by commas and the same optional vertical
+offset argument: \Verb|\cite{Tufte2006,Tufte1990}|.  
+\begin{docspec}
+  \doccmd{cite[\docopt{offset}]\{\docarg{bibkey1,bibkey2,\ldots}\}}
+\end{docspec}
+
+\section{Figures and Tables}\label{sec:figures-and-tables}
+Images and graphics play an integral role in Tufte's work.
+In addition to the standard \docenv{figure} and \docenv{tabular} environments,
+this style provides special figure and table environments for full-width
+floats.
+
+Full page--width figures and tables may be placed in \docenv{figure*} or
+\docenv{table*} environments.  To place figures or tables in the margin,
+use the \docenv{marginfigure} or \docenv{margintable} environments as follows
+(see figure~\ref{fig:marginfig}):
+
+\begin{marginfigure}%
+  %\includegraphics[width=\linewidth]{helix}
+  \caption{This is a margin figure.  The helix is defined by 
+    $x = \cos(2\pi z)$, $y = \sin(2\pi z)$, and $z = [0, 2.7]$.  The figure was
+    drawn using Asymptote (\url{http://asymptote.sf.net/}).}
+  \label{fig:marginfig}
+\end{marginfigure}
+\begin{Verbatim}
+\begin{marginfigure}
+  \includegraphics{helix}
+  \caption{This is a margin figure.}
+\end{marginfigure}
+\end{Verbatim}
+
+The \docenv{marginfigure} and \docenv{margintable} environments accept an optional parameter \docopt{offset} that adjusts the vertical position of the figure or table.  See the ``\nameref{sec:sidenotes}'' section above for examples.  The specifications are:
+\begin{docspec}
+  %\doccmd{begin\{marginfigure\}[\docopt{offset}]}\\
+  \qquad\ldots\\
+  %\doccmd{end\{marginfigure\}}\\
+  \mbox{}\\
+  %\doccmd{begin\{margintable\}[\docopt{offset}]}\\
+  \qquad\ldots\\
+  %\doccmd{end\{margintable\}}\\
+\end{docspec}
+
+Figure~\ref{fig:fullfig} is an example of the \Verb|figure*|
+environment and figure~\ref{fig:textfig} is an example of the normal
+\Verb|figure| environment.
+
+\begin{figure*}[h]
+  %\includegraphics[width=\linewidth]{sine.pdf}%
+  \caption{This graph shows $y = \sin x$ from about $x = [-10, 10]$.
+  \emph{Notice that this figure takes up the full page width.}}%
+  \label{fig:fullfig}%
+\end{figure*}
+
+\begin{figure}
+  %\includegraphics{hilbertcurves.pdf}
+%  \checkparity This is an \pageparity\ page.%
+  \caption{Hilbert curves of various degrees $n$.
+  \emph{Notice that this figure only takes up the main textblock width.}}
+  \label{fig:textfig}
+  %\zsavepos{pos:textfig}
+  \setfloatalignment{b}
+\end{figure}
+
+Table~\ref{tab:normaltab} shows table created with the \docpkg{booktabs}
+package.  Notice the lack of vertical rules---they serve only to clutter
+the table's data.
+
+\begin{table}[ht]
+  \centering
+  \fontfamily{ppl}\selectfont
+  \begin{tabular}{ll}
+    \toprule
+    Margin & Length \\
+    \midrule
+    Paper width & \unit[8\nicefrac{1}{2}]{inches} \\
+    Paper height & \unit[11]{inches} \\
+    Textblock width & \unit[6\nicefrac{1}{2}]{inches} \\
+    Textblock/sidenote gutter & \unit[\nicefrac{3}{8}]{inches} \\
+    Sidenote width & \unit[2]{inches} \\
+    \bottomrule
+  \end{tabular}
+  \caption{Here are the dimensions of the various margins used in the Tufte-handout class.}
+  \label{tab:normaltab}
+  %\zsavepos{pos:normaltab}
+\end{table}
+
+\section{Full-width text blocks}
+
+In addition to the new float types, there is a \docenv{fullwidth}
+environment that stretches across the main text block and the sidenotes
+area.
+
+\begin{Verbatim}
+\begin{fullwidth}
+Lorem ipsum dolor sit amet...
+\end{fullwidth}
+\end{Verbatim}
+
+\begin{fullwidth}
+\small\itshape\lipsum[1]
+\end{fullwidth}
+
+\section{Typography}\label{sec:typography}
+
+\subsection{Typefaces}\label{sec:typefaces}
+If the Palatino, \textsf{Helvetica}, and \texttt{Bera Mono} typefaces are installed, this style
+will use them automatically.  Otherwise, we'll fall back on the Computer Modern
+typefaces.
+
+\subsection{Letterspacing}\label{sec:letterspacing}
+This document class includes two new commands and some improvements on
+existing commands for letterspacing.
+
+When setting strings of \allcaps{ALL CAPS} or \smallcaps{small caps}, the
+letter\-spacing---that is, the spacing between the letters---should be
+increased slightly.\autocite{Bringhurst2005}  The \Verb|\allcaps| command has proper letterspacing for
+strings of \allcaps{FULL CAPITAL LETTERS}, and the \Verb|\smallcaps| command
+has letterspacing for \smallcaps{small capital letters}.  These commands
+will also automatically convert the case of the text to upper- or
+lowercase, respectively.
+
+The \Verb|\textsc| command has also been redefined to include
+letterspacing.  The case of the \Verb|\textsc| argument is left as is,
+however.  This allows one to use both uppercase and lowercase letters:
+\textsc{The Initial Letters Of The Words In This Sentence Are Capitalized.}
+
+
+
+\section{Installation}\label{sec:installation}
+To install the Tufte-\LaTeX\ classes, simply drop the
+following files into the same directory as your \texttt{.tex}
+file:
+\begin{quote}
+  \ttfamily
+  tufte-book.cls\\
+  tufte-common.def\\
+  tufte-handout.cls\\
+  tufte.bst
+\end{quote}
+
+% TODO add instructions for installing it globally
+
+
+
+\section{More Documentation}\label{sec:more-doc}
+For more documentation on the Tufte-\LaTeX{} document classes (including commands not
+mentioned in this handout), please see the sample book.
+
+\section{Support}\label{sec:support}
+
+The website for the Tufte-\LaTeX\ packages is located at
+\url{https://github.com/Tufte-LaTeX/tufte-latex}.  On our website, you'll find
+links to our \smallcaps{svn} repository, mailing lists, bug tracker, and documentation.
+\nocite{*}
+\printbibliography
+
+
+
+
+\end{document}

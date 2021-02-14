@@ -1,0 +1,150 @@
+\documentclass{article}
+%%%% page geometry
+\usepackage{remake}
+%\usepackage[a4paper,left=3.5cm,right=3.5cm,top=\dimexpr15mm+1.5\baselineskip,bottom=3cm,landscape]{geometry}
+%%%% general maths and physics tools
+\usepackage{amssymb,mathtools}
+\usepackage{physics}
+
+\usepackage[dmyyyy]{datetime}
+
+%%%% font formatting
+%\usepackage[12pt]{moresize}
+%\usepackage[protrusion=true]{microtype}
+%\usepackage[utf8]{inputenc}
+%%%%% use a slightly thicker font
+%\DeclareFontShape{OT1}{cmr}{mx}{n}%
+     %{<->cmr10}{}
+
+%%%% header and footer
+%\usepackage{fancyhdr}
+%\renewcommand{\headrulewidth}{2pt} % header line width
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhfoffset[L]{1cm} % left extra length
+%\fancyhfoffset[R]{1cm} % right extra length
+%\lhead{\bf \huge Frrther Quantum Physics \hfill SUARY OF QM \hfill \thepage\vskip -8mm}
+%\lfoot{ \Large ZBB \today}
+
+%%%% setup boxes; we use the empheq environment
+\usepackage{empheq}
+%%%% set the initial box margins
+\setlength{\fboxsep}{3\fboxsep}
+%%%% set line weight
+\setlength\fboxrule{1pt}
+
+%%%% define lbox and cbox; increase the argument for hspace to increase horizontal padding.
+\newcommand*\lbox[1]{\boxed{\hspace{0em}#1\hspace{0em}}}
+\newenvironment{cbox}{%
+    \empheq[box=\lbox]{align*}}{\endempheq}
+
+%%%% comment these next 2 out to get landscape A4 lecture slides; 
+%%%% uncomment to get 2*A5 landscape handouts on a single page
+
+%\usepackage{pgfpages} 
+%\pgfpagesuselayout{2 on 1}[a4paper]
+
+%%%% CUSTOM COMMANDS
+
+
+
+
+
+%\usepackage{lipsum}
+%\usepackage{tikz}
+%\usepackage{anyfontsize}
+
+%\usetikzlibrary{positioning,calc}
+
+%\makeatletter
+%\renewcommand{\maketitle}{%
+    %\begin{titlepage}
+    %\vspace*{\fill}
+	%\begin{center}%
+	%\fontsize{21pt}{10pt}\selectfont
+	%\textsc{\bf\@title\vspace{2\bigskipamount}}\\[4ex]
+	%\@subtitle\\[4ex]
+	%%{\@title}
+	%\end{center}
+    %\vspace*{\fill}
+    %\end{titlepage}
+	%}
+%\makeatother
+	\usepackage{remake}
+\author{Zella Baig}
+\term{Hilary Term 2021}
+\title{further quantum mechanics}
+\subtitle{Review of QM Concepts}
+\course{Further Quantum Physics}
+\topic{summary of QM}
+
+
+%%%% Last edited 9th Feb 2021
+\begin{document}
+%%%% create the title page
+%\vspace*{\fill}
+%\begin{center}
+    %\fontsize{21pt}{10pt}\selectfont
+	%\textsc{\bf{FURTHER QUANTUM MECHANICS \vspace{2\bigskipamount} \\
+	%Review of QM Concepts \vspace{4\bigskipamount} \\
+	%Zella Baig \hspace{30mm} Copied from Dr Palmer}}
+%\end{center}
+%\vspace*{\fill}
+\maketitle
+\newpage
+
+%%%% set font
+\fontseries{mx}\selectfont
+\LARGE
+%%%% the start of the slides proper:
+\begin{center}
+	\textbf{Lecture 1:} Proof of Concept
+\end{center}
+Quantum Mechanics is based on three new concepts, none of which have simple correlates in classical physics:
+\begin{itemize}
+	\item The state, or ket $\ket{\psi}$;
+	\item The probability amplitude, or amplitude $\braket{\phi}{\psi}$;
+	\item The operator $\hat A$;
+\end{itemize}
+Combining the last two we obtain the final concept which derives from these:
+\begin{itemize}
+	\item The matrix element $\mel{\phi}{\hat A}{\psi}$.
+\end{itemize}
+\newpage
+\begin{center}
+	\textbf{The ket} $\ket{\psi}$.
+\end{center}
+The ket is the complete quantum state of the system, from which we can diagnose all its properties at a given time.
+\begin{center}
+	By contrast: \textbf{the complete Classical State}
+\end{center}
+Here is an example of a boxed equation, using the 'cbox' environment.
+\begin{cbox}
+		\ket{\psi(t)}=\sum_i c_i\exp(-i E_it/\hbar)\ket{E_i}.
+\end{cbox}
+'cbox' is a wrapper for the align* environment; so you may have line breaks:
+\begin{cbox}
+	\ket{\psi(t)}&=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.\\
+	\ket{\phi(t)}&=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.
+\end{cbox}
+We may also use inline boxes with the 'lbox' command: see, for example this inline box: \lbox{y=mx+c} as well as another one: \lbox{y \neq mx+b}
+\newpage
+\begin{center}
+	\textbf{Newpage} JUST A TEST
+\end{center}
+The ket is the complete quantum state of the system, from which we can diagnose all its properties at a given time.
+\begin{center}
+	By contrast: \textbf{the complete Classical State}
+\end{center}
+Here is an example of a boxed equation, using the 'cbox' environment.
+\begin{cbox}
+		\ket{\psi(t)}=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.
+\end{cbox}
+cbox is a wrapper for the align* environment; so you may have line breaks:
+\begin{cbox}
+	\ket{\psi(t)}&=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.\\
+	\ket{\phi(t)}&=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.\\
+	\ket{\phi(t)}&=\sum_ic_i\exp(-i E_it/\hbar)\ket{E_i}.
+\end{cbox}
+One may also use inline boxes with the 'lbox' command: see, for example this inline box: \lbox{y=mx+c} as well as another one: \lbox{y \neq mx+b}
+\end{document}

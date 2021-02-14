@@ -1,0 +1,426 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%   Viewgraph Format for QM lectures   %%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\count99=1 % This number should be 1 for overheads, 2 for handouts (2 per page)
+\ifodd\count99
+   \write16{Viewgraph format: 1 per page A4 landscape}
+   \magnification\magstep3
+   %\special{papersize=297mm,210mm}
+   \special{papersize=297mm,410mm}
+   \vsize=104mm
+   \voffset=-19truemm
+\else
+   \write16{Viewgraph format: 2 per page A4 portrait}
+   \magnification\magstep1
+   \special{papersize=210mm,297mm}
+   \vsize=215mm
+   \voffset=-13truemm
+\fi
+%\input epsf
+\font\oneb=  cmbx12 			% for lecture series (approx 21pt)
+\font\ss=    cmssdc10			% for 4-vectors
+\font\sss= cmssdc7
+\font\ssss= cmssdc5
+\textfont12=\ss
+\scriptfont12=\sss
+\scriptscriptfont12=\ssss
+\font\small= cmr8			% footline        (approx 14pt)
+\hsize=145mm			% Limit the text size
+\baselineskip=15 pt plus .2 pt	% 3 lines/inch
+\lineskip=3 pt			% minimum interline clearance
+\raggedright			% lines are too short for good justification
+\nopagenumbers			% the pagenumbers are in the heading
+%
+\def\heading#1{\noindent\line{\oneb Further Quantum Physics
+\hfil #1\hfil\folio}\vskip2.5mm\hrule height1.0pt\vskip5mm}
+\def\noi{\noindent}
+\def\bra#1{\left< {#1} \right|}
+\def\ket#1{\left| {#1} \right>}
+\def\braket#1#2{\left< \left. {#1} \right| {#2} \right>}
+\def\lesim{{\raise0.35ex\hbox{$<$}\kern-0.8em\lower0.75ex\hbox{$\sim$}}}
+\def\i{{\rm i}}
+\def\Vec#1{{\bf #1}}
+\def\C2#1{{\cal #1}}
+\def\V4#1{{\fam12 #1}}
+\def\diff(#1,#2){{\partial #1\over\partial#2}}
+\def\boxit#1{\vbox{\hrule\hbox{\vrule
+\kern5pt\vbox{\kern5pt\hbox{#1}\kern5pt}\kern5pt\vrule}\hrule}}
+\def\boxoneline#1{\medskip\noi\centerline{\boxit{$\displaystyle#1$}}\medskip}
+\def\Eject{%
+\ifodd\count0
+   \ifodd\count99
+      \eject
+   \else
+      \advancepageno
+      \vskip2mm
+      \hrule height0.3pt
+      \vskip3mm
+   \fi
+\else
+   \eject
+\fi}
+%
+%\footline{\small CWPP \number\day/\number\month/\number\year\hfill}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Viewgraph 1
+%
+\heading{SUMMARY OF QM}
+\vfil
+\centerline{\oneb FURTHER QUANTUM MECHANICS}
+\bigskip
+\centerline{\oneb Review of QM Concepts}
+\bigskip
+\bigskip\centerline{\oneb Dr C W P Palmer\hskip3em Hilary Term \number\year} 
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{{\bf Lecture 1:} QM Concepts}
+\medskip\noi Quantum Mechanics is based on three new concepts, none of
+which have simple correlates in classical physics: \medskip
+\item{$\bullet$} The state, or ket $|\psi\rangle$;
+\item{$\bullet$} The probability amplitude, or amplitude $\braket{\phi}{\psi}$.
+\item{$\bullet$} The operator $\hat A$;
+\medskip\noi
+Combining the last two we obtain the final concept which derives from these:
+\medskip
+\item{$\bullet$}The matrix element $\langle\phi|\hat
+A|\psi\rangle$.\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{{\bf The ket} $|\psi\rangle$.}
+\noi The ket is the complete quantum state of the system, from which we can
+diagnose all its properties at a given time.
+\smallskip\noi
+\centerline {By contrast: \bf the complete Classical State}
+The complete dynamical state of a {\it classical} system of particles consists of
+the positions and momenta of all its particles (a point in {\it phase space}); or some other
+set of variables equivalent to these. (Obviously this is not a complete
+description --- we would need to add something about what particles were at each
+of the specified positions. But it is a complete set of dynamical information.)
+
+\noi Consider the planet Mercury, viewed as a point mass orbiting an
+fixed attractive centre. We could specify its current position $\Vec r$, relative to a
+defined coordinate system, and its current momentum $\Vec p$, or 
+velocity $\Vec v$ --- a total of 6 variables. Or we could give the standard set
+of orbital elements: (see http://ssd.jpl.nasa.gov/?ephemerides)
+\vfil\noi
+\centerline{\vbox{\halign{#\hfil\quad&#\hfil\qquad&#\hfil\quad&#\cr
+$a$& Semi-major axis&$\Omega$&Longitude of Ascending Node\cr
+$e$& Eccentricity   &$\omega$&Argument of Perihelion\cr
+$i$& Inclination    &$t_p$   &Time of Perihelion Passage\cr}}}
+\vfil\Eject
+%\heading{SUMMARY OF QM}
+%\medskip\line{\hfil\epsfxsize=110mm\epsffile{500px_Orbit1.svg.ps}\hfil}
+%\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{{\bf The ket} $|\psi\rangle$.}
+\noi But this example is dynamically equivalent (same force law) to Hydrogen. The
+complete quantum state for Hydrogen $\ket{n,\ell,m}$ is specified by just {\it three} numbers:
+\medskip
+\item{$n$} Principal quantum number ($E_n=-R/n^2$.)
+\item{$\ell$} Angular Momentum quantum number ($L^2=\ell(\ell+1)\hbar^2$)
+\item{$m$} Azimuthal quantum number ($L_z=m\hbar$).
+\medskip\noi
+In fact these specify an orbit shape and inclination but none of the
+parameters in left-hand column.
+\medskip
+\centerline{\it The ket specifies the state less completely than the classical
+state.}
+\medskip\noi
+But QM is right. So we should perhaps say
+\medskip
+\centerline{\it The classical state over-specifies the state.}
+\medskip\noi
+and if we recall the uncertainty principle this is obvious.
+\vfil
+\noi
+But there is a choice about which if any of the classical variables are
+defined by the ket . . .
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{{\bf The amplitude} $\braket{\phi}{\psi}$.}
+\noi
+Instead of the $\ket{n,\ell,m}$ states we could choose other complete sets of
+kets:
+\medskip\item{}$\ket{\Vec x}$: the particle is at $\Vec x$ (but momentum is
+quite unknown);
+\smallskip\item{}$\ket{\Vec p}$: the particle has momentum $\Vec p$ (but position
+is quite unknown);
+\smallskip\item{}$\ket{\Vec a(t)}$: a moving wave-packet ket, with a range
+of positions around $\Vec a$ and a range of momenta around $m\dot\Vec a$;
+\smallskip\item{}$\ldots$\medskip\noi
+These specify some things {\it more} precisely than the $\ket{n,\ell,m}$ kets,
+and some things less precisely. So the kets overlap in some sense. 
+\smallskip\noi
+$\braket{\phi}{\psi}$ denotes the probability amplitude that a particle whose
+state is the ket $\ket{\psi}$ is found to be in the ket $\ket{\phi}$.
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf Aside on Probability and Probability Amplitude:}
+
+\noi Probability (and probability density) are classical concepts. In all
+cases they are used to answer incompletely specified problems --- ignorance of
+some aspect of the system --- {\it epistemic} probability.
+
+\noi Probability amplitude is a new concept invented for QM: a complex
+number whose square is a a probability (or probability density). Why?
+
+\noi Linearity of ket space --- amplitudes can add or cancel ---
+interference, waves. You need this to be able to make all the various kets of
+the previous page (how else can you combine different complete sets of 
+information and make some information more precise and some less precise?).
+\medskip\noi
+So the desire to permit wave-like phenomena, like interference, has the effect
+that the primary quantity of the theory is not directly accessible. --- measurable
+things tend to involve squaring something.
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf The operator $\hat A$:} 
+
+\noi Having introduced linearity, so that
+kets are elements of a linear vector space (i.e. we can add them and multiply
+by numbers) then it follows that we can have linear operators, and these turn
+out to represent observables. Given an operator $\hat A$ we can find eigenkets
+$$
+\hat A\ket{a}=a\ket{a}.
+$$
+Hermitian operators play a special role because then several special things
+happen:
+\smallskip
+\item{}$a$ is real
+\item{} Eigenkets belonging to different eigenvalues are orthogonal
+$\braket{b}{a}=0$.
+\item{} The set of eigenkets is complete: $\displaystyle
+\sum_a\ket{a}\bra{a}=1$.
+\smallskip
+Eigenkets of $\hat A$ represent states in which the observable $A$ has the
+value $a$. 
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf The Measurement Postulate:} 
+
+\noi
+If we measure the observable $A$ on
+a state $\ket{\psi}$ then:
+\medskip
+\item{(i)} The result is one of the eigenvalues of $A$, $a_n$
+\smallskip\item{(ii)} with probability $|\braket{a_n}{\psi}|^2$.
+\smallskip\item{(iii)}After the measurement the state is $\ket{a_n}$.
+\medskip\noi
+The first two parts simply follow from our definition of amplitude and
+interpretation of eigenkets. So the measurement postulate defines the complete
+probability distribution of possible outcomes $P(a_n)$. The expectation value
+of the distribution is, as for any other probability distribution,
+$\sum_aa\,P(a)$ and it's easy to show this is equal to $\bra{\psi}\hat
+A\ket{\psi}$.  
+
+\noi
+The last part here is the {\it collapse of the wavefunction} and is a {\it big
+deal.} No other part of QM has occasioned so much (or such bad-tempered)
+dispute. This is the {\it measurement problem}. P\&P's take note.
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf The Matrix Element $\bra{m}\hat A\ket{n}$:}
+
+\noi
+Consider finding the expectation of $A$ in a superposition state
+$\ket{\psi}=\sum_{n=1}^3c_n\ket{n}$. 
+
+\noi (The basis $\ket{n}$ is unrelated to $A$;
+e.g. $A$ is position and the basis states are energy eigenstates).
+
+\noi
+Then clearly we just substitute into both bra and ket:
+$$
+\bra{\psi}\hat A\ket{\psi}=\sum_{m=1}^3\sum_{n=1}^3c_m^*\bra{m}\hat
+A\ket{n}c_n
+$$
+which we can conveniently write in a matrix and vector notation:
+$$
+\bra{\psi}\hat A\ket{\psi}=\Vec c^\dagger\Vec A\Vec c=
+\pmatrix{c_1^*&c_2^*&c_3^*}\pmatrix{A_{11}&A_{12}&A_{12}\cr
+A_{21}&A_{22}&A_{23}\cr
+A_{31}&A_{32}&A_{33}}\pmatrix{c_1\cr c_2\cr c_3}
+$$
+where $A_{mn}=\bra{m}\hat A\ket{n}$. It's called a matrix element because it's
+an element of a matrix! The matrix is the representative of the operator $\hat
+A$ in this basis.
+
+\noi The vector $\Vec c$ is the representative of the ket $\psi$ in the
+basis $\ket{n}$. It's elements are $c_n=\braket{n}{\psi}$. (But the restriction
+to just three states is just for this example --- it's an infinite vector
+unless we have a reason to focus on just a subset of states.)
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf Dynamics:}
+
+\noi States evolve in time --- so kets evolve in time:
+$$
+\i\hbar{d\hfil\over dt}\ket{\psi(t)}=H\ket{\psi(t)}
+$$
+where $H$ is the Hamiltonian operator (the energy expressed as a function of
+position and momentum). 
+
+\noi
+This {\it looks} really simple if $H$ does not depend on
+time: compare
+$$
+{df\over dt} + K f=0\quad\to\quad f(t)=f(0)\exp{(-Kt)}.
+$$
+Can we do the same here? Well we need to make the operator come before the ket:
+$$
+\ket{\psi(t)}=\exp{\left[-{\i Ht\over\hbar}\right]}\ket{\psi(0)}
+$$
+and we need to know how to take the exponential of an operator --- use the
+series expansion:
+$$
+\exp{\left[-{\i Ht\over\hbar}\right]}=\sum_{n=0}^\infty\left({-\i
+t\over\hbar}\right)^n{H^n\over n!}
+$$
+Since powers of $H$ are well defined, and we can add kets together, this isn't
+mathematical nonsense! And in fact it solves the Schrodinger equation --- and
+is the usual solution!
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi It looks particularly simple when we expand the ket at $t=0$ in
+terms of the eigenkets of $H$: 
+$$
+\ket{\psi(0)}=\sum_ic_i\ket{E_i}\qquad\hbox{where} \quad
+H\ket{E_i}=E_i\ket{E_i}.
+$$
+(These are time-independent kets. Sometimes time-dependent energy eigenkets 
+are used, but I will always be explicit if I use them.) Then
+$$
+\exp{\left[-{\i Ht\over\hbar}\right]}\ket{E_i}=\sum_{n=0}^\infty\left({-\i
+t\over\hbar}\right)^n{H^n\over n!}\ket{E_i}=\sum_{n=0}^\infty\left({-\i
+t\over\hbar}\right)^n{E_i^n\over n!}\ket{E_i}=\exp(-\i E_it/\hbar)\ket{E_i}.
+$$
+So that our superposition state is just a sum of these
+\boxoneline{
+\ket{\psi(t)}=\sum_ic_i\exp(-\i E_it/\hbar)\ket{E_i}.
+}
+\noi The operator $U(t)=\exp{(-\i Ht/\hbar)}$ is called the {\it time development
+operator} or the {\it propagator} because it propagates the ket forward in
+time from $0$ to $t$.  It is also {\it unitary}: $U^{\dag}=U^{-1}$ which has the
+important consequence that the normalisation is conserved:
+$$
+\braket{\psi(t)}{\psi(t)}=\bra{\psi(0)}U^{\dag}U\ket{\psi(0)}=\braket{\psi(0)}{\psi(0)}.
+$$
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi{\bf Example: Particle in a box}
+We consider a box of width $a$, from $0$ to $a$. Then the eigenfunctions and
+eigenvalues are easily found:
+$$
+E_n={n^2 \pi^2\hbar^2\over 2 m a^2}\qquad u_n(x)=\braket{x}{n}=\sqrt{2\over
+a}\sin\left[{n\pi x\over a}\right].
+$$
+(You may have see a version of this with a different definition of $a$, and
+symmetry about $x=0$; this version has the nice property that we have a single
+formula for all the eigenfunctions).
+
+To see wavepackets based on this see: (linked from FQM webpage)
+
+http://www.physics.ox.ac.uk/users/palmerc/tdse\_Applet.htm
+\vfil
+\noi{\bf Correspondence Principle:} One implication of this follows from
+the time-dependence that we get in expectation values:
+$$
+{dE_n\over dn}\to h\nu_{\rm class}(E_n)\qquad\hbox{at large $n$}
+$$
+where $\nu_{\rm class}$ is the classical orbit frequency as a function of energy.
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{\bf Commutators}
+\noi One of the most striking non-classical features of QM is the
+non-commutation of operators representing classical variables. What does it
+mean?
+\smallskip
+$[\hat A,\hat B]=0$: There is a really powerful theorem, which we will use
+repeatedly, which states that if two operators commute then there exists a
+complete set of mutual eigenkets $\ket{a,b}$:
+
+\leftline{\hskip4em$\hat A\ket{a,b}=a\ket{a,b}$}
+\leftline{\hskip4em$\hat B\ket{a,b}=b\ket{a,b}$.}\noi
+This also implies that the observables $A$ and $B$ can be measured compatibly.
+
+\noi(There is a slight wrinkle concerning degeneracy).
+\medskip
+$[\hat H,\hat A]=0$: In the case of operators commuting with the Hamiltonian then there
+is a further consequence: for any state $\ket{\psi(t)}$, the expectation value
+of $A$ is independent of time
+$$
+{d\hfil\over dt}\bra{\psi(t)}\hat A\ket{\psi(t)}=0
+$$
+and in a borrowing of classical terminology $A$ is often referred to as a
+constant of the motion. \smallskip\noi
+Note that this is true for all $\hat A$ commuting with $\hat H$
+even if they don't commute with each other. $[\hat H,\hat L_i]=0$ for all
+components of $\hat\Vec L$, so all are constants of the motion.  
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\centerline{\bf Commutators}
+\noi (Finally there are commutators of the form $[a,\hat B]=c\,a$ for
+some real number $c$. This
+implies that $a$ is a ladder operator: but it can't be a classical observable!
+That's because if $\hat A$ and $\hat B$ are Hermitian then $[\hat A,\hat B]$
+is anti-Hermitian: that is, a Hermitian operator multipled by $\i$. The
+absence of an $\i$ on the RHS means that $a$ is neither Hermitian nor
+anti-Hermitian.) 
+\vfil
+\centerline{\bf Scaling the Hamiltonian}
+\noi
+The harmonic oscillator Hamiltonian in the $x$-representation contains three
+constants:
+$$
+H=-{\hbar^2\over 2m}{d^2\hfil\over dx^2}+{1\over
+2}m\omega^2x^2\quad\hbox{involves}\quad\hbar,\>m,\>\omega.
+$$This means we can devise a system of units specially adapted for the
+oscillator:
+\medskip\noi\centerline{\vbox{\halign{\quad\hfil#\hfil\qquad&\hfil#\hfil\quad\cr
+Constant&Dimensions\cr\noalign{\vskip3pt\hrule\vskip3pt}
+$m$&$[M]$\cr
+$\omega$&$[T^{-1}]$\cr
+$\hbar$&$[ML^2T^{-1}]$\cr\noalign{\vskip3pt\hrule}
+}}}
+\noi Thus $m$ has dimensions of mass, $\omega^{-1}$ of time and
+$\sqrt{\hbar/m\omega}$ of length, and in these units the unit of energy is $\hbar\omega$.
+\vfil\Eject
+\heading{SUMMARY OF QM}
+\noi
+We now switch to these units --- we define 
+$\displaystyle
+x=\sqrt{\hbar\over m\omega}\,\V4x\qquad E=\hbar\omega \V4E
+$
+which gives the time-independent Schrodinger equation as
+$$
+{\hbar^2\over 2m}\,{m\omega\over\hbar}{d^2\psi\over d\V4x^2}
++{1\over2}m\omega^2{\hbar\over m\omega}\V4x^2\psi=\hbar\omega\V4E\psi.
+$$
+\noi$\hbar\omega$ cancels throughout to leave 
+$\displaystyle\qquad
+-{d^2\psi\over d\V4x^2}+\V4x^2\psi=2\V4E\psi
+$
+
+\noi
+which is the underlying equation stripped of constants.
+
+\noi
+In these units  the eigenvalues are just $\V4E_n=n+{1\over2}$, 
+
+the ground
+state wavefunction is
+$\displaystyle\psi_0(\V4x)={e^{-\V4x^2/2}\over\pi^{1/4}}$ 
+
+and the creation operator is $\displaystyle
+a^\dagger={1\over\sqrt2}\,(\V4x-\i\V4p)$ where $\V4p=-\i(d/d\V4x)$.
+
+\noi We can always recover the wavefuction in standard units by replacing
+$\V4x$ with $\sqrt{m\omega/\hbar}\,x$ and multiplying the wavefuntion by 
+$(m\omega/\hbar)^{1/4}$ because $\psi$ has dimensions of $[L]^{-1/2}$:
+$$
+\psi(x)=\left({m\omega\over\pi\hbar}\right)^{1/4}\,\exp{(-m\omega x^2/2\hbar)}.
+$$
+\vfil\Eject
+\bye

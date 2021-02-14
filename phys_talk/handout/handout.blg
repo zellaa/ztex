@@ -1,0 +1,15 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'handout.blg'
+[89] biber:330> INFO - === Mon Feb  8, 2021, 12:50:24
+[105] Biber.pm:415> INFO - Reading 'handout.bcf'
+[183] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[199] Biber.pm:4334> INFO - Processing section 0
+[211] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[213] bibtex.pm:1682> INFO - LaTeX decoding ...
+[258] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[516] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[516] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[517] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[517] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[554] bbl.pm:651> INFO - Writing 'handout.bbl' with encoding 'UTF-8'
+[573] bbl.pm:754> INFO - Output to handout.bbl

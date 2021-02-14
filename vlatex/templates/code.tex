@@ -1,0 +1,72 @@
+<+	+>	!comp!	!exe!
+\documentclass[a4paper]{article}
+%define colours
+\usepackage{xcolor}
+\usepackage{sectsty}
+\definecolor{purply}{HTML}{580742}
+\definecolor{gurple}{HTML}{66033c}
+%%maths stuff
+\usepackage[]{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{cancel}
+%%pictures
+\usepackage{graphicx}
+\graphicspath{{./pics/}}
+%%pagestyle
+\usepackage[margin=1in]{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\color{gurple} <++>}
+\rfoot{\color{gurple} Page \thepage}
+\sectionfont{\color{purply}}
+%%code
+\usepackage{listings}
+\lstset{frame=tb,
+%style=Matlab-editor,
+aboveskip=3mm,
+belowskip=3mm,
+showstringspaces=false,
+columns=flexible,
+basicstyle={\small\ttfamily},
+numbers=none,
+breaklines=true,
+breakatwhitespace=true,
+tabsize=3
+}
+%%final styling
+\usepackage[charter]{mathdesign}
+\title{\color{purply} \Huge <++>}
+\author{\LARGE Zella Baig\\
+shil5321}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\begin{abstract}
+\noindent <++>
+\end{abstract}
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+\section{Introduction}
+<++>
+
+\newpage
+\section{Methodology}%
+
+\newpage
+\section{Analysis}%
+
+\newpage
+\section{Conclusions}%
+
+\newpage
+\section{Appendix}
+\newpage
+%\begin{thebibliography}
+%\end{thebibliography}
+\end{document}

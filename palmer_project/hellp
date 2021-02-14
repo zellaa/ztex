@@ -1,0 +1,410 @@
+
+
+
+
+
+99
+   16Viewgraph format: 1 per page A4 landscape
+   3
+   
+   papersize=297mm,410mm
+      
+   16Viewgraph format: 2 per page A4 portrait
+   1
+   papersize=210mm,297mm
+      
+
+cmbx12 	
+cmssdc10	
+cmssdc7
+cmssdc5
+cmr8	
+
+pt plus .2 pt	
+pt	
+
+
+
+Further Quantum Physics
+#1height1.0pt
+
+< #1 
+ #1 >
+< . #1  #2 >
+0.35ex0.75ex
+i
+#1
+#1
+12 #1
+#1#2
+
+#1
+
+
+0
+   99
+      
+   
+      
+      
+      height0.3pt
+      
+   
+
+   
+
+
+CWPP //
+
+
+
+
+
+SUMMARY OF QM
+
+FURTHER QUANTUM MECHANICS
+
+Review of QM Concepts
+
+Dr C W P PalmerHilary Term  
+
+SUMMARY OF QM
+Lecture 1: QM Concepts
+Quantum Mechanics is based on three new concepts, none of
+which have simple correlates in classical physics: 
+ The state, or ket ;
+ The probability amplitude, or amplitude .
+ The operator ;
+
+Combining the last two we obtain the final concept which derives from these:
+
+The matrix element .
+SUMMARY OF QM
+The ket .
+The ket is the complete quantum state of the system, from which we can
+diagnose all its properties at a given time.
+
+By contrast: the complete Classical State
+The complete dynamical state of a classical system of particles consists of
+the positions and momenta of all its particles (a point in phase space); or some other
+set of variables equivalent to these. (Obviously this is not a complete
+description - we would need to add something about what particles were at each
+of the specified positions. But it is a complete set of dynamical information.)
+
+Consider the planet Mercury, viewed as a point mass orbiting an
+fixed attractive centre. We could specify its current position , relative to a
+defined coordinate system, and its current momentum , or 
+velocity  - a total of 6 variables. Or we could give the standard set
+of orbital elements: (see http://ssd.jpl.nasa.gov/?ephemerides)
+
+#&#&#&#
+& Semi-major axis&&Longitude of Ascending Node
+& Eccentricity   &&Argument of Perihelion
+& Inclination    &   &Time of Perihelion Passage
+
+
+
+
+SUMMARY OF QM
+The ket .
+But this example is dynamically equivalent (same force law) to Hydrogen. The
+complete quantum state for Hydrogen  is specified by just three numbers:
+
+ Principal quantum number (.)
+ Angular Momentum quantum number ()
+ Azimuthal quantum number ().
+
+In fact these specify an orbit shape and inclination but none of the
+parameters in left-hand column.
+
+The ket specifies the state less completely than the classical
+state.
+
+But QM is right. So we should perhaps say
+
+The classical state over-specifies the state.
+
+and if we recall the uncertainty principle this is obvious.
+
+
+But there is a choice about which if any of the classical variables are
+defined by the ket . . .
+
+SUMMARY OF QM
+The amplitude .
+
+Instead of the  states we could choose other complete sets of
+kets:
+: the particle is at  (but momentum is
+quite unknown);
+: the particle has momentum  (but position
+is quite unknown);
+: a moving wave-packet ket, with a range
+of positions around  and a range of momenta around ;
+
+These specify some things more precisely than the  kets,
+and some things less precisely. So the kets overlap in some sense. 
+
+ denotes the probability amplitude that a particle whose
+state is the ket  is found to be in the ket .
+
+SUMMARY OF QM
+Aside on Probability and Probability Amplitude:
+
+Probability (and probability density) are classical concepts. In all
+cases they are used to answer incompletely specified problems - ignorance of
+some aspect of the system - epistemic probability.
+
+Probability amplitude is a new concept invented for QM: a complex
+number whose square is a a probability (or probability density). Why?
+
+Linearity of ket space - amplitudes can add or cancel -
+interference, waves. You need this to be able to make all the various kets of
+the previous page (how else can you combine different complete sets of 
+information and make some information more precise and some less precise?).
+
+So the desire to permit wave-like phenomena, like interference, has the effect
+that the primary quantity of the theory is not directly accessible. - measurable
+things tend to involve squaring something.
+
+SUMMARY OF QM
+The operator : 
+
+Having introduced linearity, so that
+kets are elements of a linear vector space (i.e. we can add them and multiply
+by numbers) then it follows that we can have linear operators, and these turn
+out to represent observables. Given an operator  we can find eigenkets
+
+
+
+Hermitian operators play a special role because then several special things
+happen:
+
+ is real
+ Eigenkets belonging to different eigenvalues are orthogonal
+.
+ The set of eigenkets is complete: .
+
+Eigenkets of  represent states in which the observable  has the
+value . 
+
+SUMMARY OF QM
+The Measurement Postulate: 
+
+
+If we measure the observable  on
+a state  then:
+
+(i) The result is one of the eigenvalues of , 
+(ii) with probability .
+(iii)After the measurement the state is .
+
+The first two parts simply follow from our definition of amplitude and
+interpretation of eigenkets. So the measurement postulate defines the complete
+probability distribution of possible outcomes . The expectation value
+of the distribution is, as for any other probability distribution,
+ and it's easy to show this is equal to .  
+
+
+The last part here is the collapse of the wavefunction and is a big
+deal. No other part of QM has occasioned so much (or such bad-tempered)
+dispute. This is the measurement problem. PP's take note.
+
+SUMMARY OF QM
+The Matrix Element :
+
+
+Consider finding the expectation of  in a superposition state
+. 
+
+(The basis  is unrelated to ;
+e.g.  is position and the basis states are energy eigenstates).
+
+
+Then clearly we just substitute into both bra and ket:
+
+
+
+
+which we can conveniently write in a matrix and vector notation:
+
+
+
+
+
+
+where . It's called a matrix element because it's
+an element of a matrix! The matrix is the representative of the operator  in this basis.
+
+The vector  is the representative of the ket  in the
+basis . It's elements are . (But the restriction
+to just three states is just for this example - it's an infinite vector
+unless we have a reason to focus on just a subset of states.)
+
+SUMMARY OF QM
+Dynamics:
+
+States evolve in time - so kets evolve in time:
+
+
+
+where  is the Hamiltonian operator (the energy expressed as a function of
+position and momentum). 
+
+
+This looks really simple if  does not depend on
+time: compare
+
+
+
+Can we do the same here? Well we need to make the operator come before the ket:
+
+
+
+and we need to know how to take the exponential of an operator - use the
+series expansion:
+
+
+
+
+Since powers of  are well defined, and we can add kets together, this isn't
+mathematical nonsense! And in fact it solves the Schrodinger equation - and
+is the usual solution!
+
+SUMMARY OF QM
+It looks particularly simple when we expand the ket at  in
+terms of the eigenkets of : 
+
+
+
+
+(These are time-independent kets. Sometimes time-dependent energy eigenkets 
+are used, but I will always be explicit if I use them.) Then
+
+
+
+
+
+So that our superposition state is just a sum of these
+
+(t)=_ic_i(-iE_it/)E_i.
+
+The operator  is called the time development
+operator or the propagator because it propagates the ket forward in
+time from  to .  It is also unitary:  which has the
+important consequence that the normalisation is conserved:
+
+
+
+
+SUMMARY OF QM
+Example: Particle in a box
+We consider a box of width , from  to . Then the eigenfunctions and
+eigenvalues are easily found:
+
+
+
+
+(You may have see a version of this with a different definition of , and
+symmetry about ; this version has the nice property that we have a single
+formula for all the eigenfunctions).
+
+To see wavepackets based on this see: (linked from FQM webpage)
+
+http://www.physics.ox.ac.uk/users/palmerc/tdseApplet.htm
+
+Correspondence Principle: One implication of this follows from
+the time-dependence that we get in expectation values:
+
+
+
+where  is the classical orbit frequency as a function of energy.
+
+SUMMARY OF QM
+Commutators
+One of the most striking non-classical features of QM is the
+non-commutation of operators representing classical variables. What does it
+mean?
+
+: There is a really powerful theorem, which we will use
+repeatedly, which states that if two operators commute then there exists a
+complete set of mutual eigenkets :
+
+
+.
+This also implies that the observables  and  can be measured compatibly.
+
+(There is a slight wrinkle concerning degeneracy).
+
+: In the case of operators commuting with the Hamiltonian then there
+is a further consequence: for any state , the expectation value
+of  is independent of time
+
+
+
+and in a borrowing of classical terminology  is often referred to as a
+constant of the motion. 
+Note that this is true for all  commuting with 
+even if they don't commute with each other.  for all
+components of , so all are constants of the motion.  
+
+SUMMARY OF QM
+Commutators
+(Finally there are commutators of the form  for
+some real number . This
+implies that  is a ladder operator: but it can't be a classical observable!
+That's because if  and  are Hermitian then 
+is anti-Hermitian: that is, a Hermitian operator multipled by . The
+absence of an  on the RHS means that  is neither Hermitian nor
+anti-Hermitian.) 
+
+Scaling the Hamiltonian
+
+The harmonic oscillator Hamiltonian in the -representation contains three
+constants:
+
+
+
+This means we can devise a system of units specially adapted for the
+oscillator:
+#&#
+Constant&Dimensions3pt
+&
+&
+&
+
+Thus  has dimensions of mass,  of time and
+ of length, and in these units the unit of energy is .
+
+SUMMARY OF QM
+
+We now switch to these units - we define 
+
+which gives the time-independent Schrodinger equation as
+
+
+
+
+ cancels throughout to leave 
+
+
+
+which is the underlying equation stripped of constants.
+
+
+In these units  the eigenvalues are just , 
+
+the ground
+state wavefunction is
+ 
+
+and the creation operator is  where .
+
+We can always recover the wavefuction in standard units by replacing
+ with  and multiplying the wavefuntion by 
+ because  has dimensions of :
+
+
+
+
+

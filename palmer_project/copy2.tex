@@ -1,0 +1,33 @@
+   \write16{Viewgraph format: 1 per page A4 landscape}
+   \magnification\magstep3
+   %\special{papersize=297mm,210mm}
+   %\special{papersize=297mm,210mm}
+   %\vsize=604mm
+   \voffset=190truemm
+%\input epsf
+\font\oneb=  cmbx21 			% for lecture series (approx 21pt)
+\font\ss=    cmssdc10			% for 4-vectors
+\font\sss= cmssdc12
+\font\ssss= cmssdc12
+\textfont12=\ss
+\scriptfont12=\sss
+\scriptscriptfont12=\ssss
+\font\small= cmr8			% footline        (approx 14pt)
+%\hsize=145mm			% Limit the text size
+\baselineskip=15 pt plus .2 pt	% 3 lines/inch
+\lineskip=3 pt			% minimum interline clearance
+\raggedright			% lines are too short for good justification
+\nopagenumbers			% the pagenumbers are in the heading
+%
+
+\def\folio{\ifnum\pageno<0 \romannumeral-\pageno \else\number\pageno \fi}
+\def\heading#1{\noindent\line{\oneb Further Quantum Physics\hfil #1\hfil \folio}\vskip2.5mm\hrule height2pt\vskip5mm}
+\def\boxit#1{\vbox{\hrule\hbox{\vrule\kern5pt\vbox{\kern5pt\hbox{#1}\kern5pt}\kern5pt\vrule}\hrule}}
+\def\boxoneline#1{ \medskip\noindent{\boxit{$\displaystyle#1$}}\medskip}
+
+\heading{hi this is what im saying}
+{\bf Lecture 1:} QM Concepts as one does sdadshdsaaaaaaaaaaaaaaaaaaaaaaaa
+%\vskip\medskipamoun
+
+\vspace{\medskipamount}
+\boxoneline{ri}

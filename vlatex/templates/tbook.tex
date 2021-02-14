@@ -1,0 +1,37 @@
+<+	+>	!comp!	!exe!
+\documentclass[a4paper,openany,nobib]{tufte-book}
+%define colours
+\usepackage{xcolor}
+\definecolor{tred}{HTML}{450000}
+\definecolor{tgray}{HTML}{161616}
+%%pictures
+\usepackage{graphicx}
+\graphicspath{{./pics/}}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+%%pagestyle
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{booktabs}
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+\fancypagestyle{plain}{}
+%%references
+\usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
+\addbibresource{<++>}
+%%final styling
+\title{<++>}
+\author{Zella Baig}
+\publisher{\today}
+\color{tgray}
+\colorlet{darkgray}{tred}
+\begin{document}
+\frontmatter
+{\maketitle}
+\tableofcontents
+\thispagestyle{empty}
+\mainmatter
+\chapter{<++>}
+<++>
+\setcounter{page}{1}
+\nocite{*}
+\printbibliography
+\end{document}
