@@ -1,18 +1,23 @@
 \documentclass[a4paper,openany,nobib]{tufte-book}
+%define colours
 \usepackage{xcolor}
-\usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
-\addbibresource{refs.bib}
 \definecolor{tred}{HTML}{450000}
 \definecolor{tgray}{HTML}{161616}
-\usepackage{microtype}
-\usepackage{booktabs}
-\fancypagestyle{plain}{}
+%%pictures
 \usepackage{graphicx}
-\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
 \graphicspath{{./pics/}}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+%%pagestyle
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{booktabs}
 \usepackage{fancyvrb}
 \fvset{fontsize=\normalsize}
-\title{Sample Title}
+\fancypagestyle{plain}{}
+%%references
+\usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
+\addbibresource{refs.bib}
+%%final styling
+\title{Voltage}
 \author{Zella Baig}
 \publisher{\today}
 \color{tgray}
@@ -23,21 +28,11 @@
 \tableofcontents
 \thispagestyle{empty}
 \mainmatter
-\chapter{Chapter 1}%
+\chapter{Chapter 1}
+Hello
 \setcounter{page}{1}
-\label{cha:Hello}
-\section{Section 1}%
-\label{sec:Section 1}
-dsayy
-hsseya\autocite{westfall}
-\section{hyee}%
-\label{sec:hyee}
-\newpage
-wassaap
-\newpage
-this is a test
-\newpage 
-test2
 \nocite{*}
 \printbibliography
 \end{document}
+
+

@@ -1,15 +1,15 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'history.blg'
-[118] biber:330> INFO - === Thu Feb 11, 2021, 13:57:08
-[152] Biber.pm:415> INFO - Reading 'history.bcf'
-[244] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[261] Biber.pm:4334> INFO - Processing section 0
-[275] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[276] bibtex.pm:1682> INFO - LaTeX decoding ...
-[324] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[611] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[611] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[649] bbl.pm:651> INFO - Writing 'history.bbl' with encoding 'UTF-8'
-[668] bbl.pm:754> INFO - Output to history.bbl
+[89] biber:330> INFO - === Sun Feb 14, 2021, 12:35:38
+[105] Biber.pm:415> INFO - Reading 'history.bcf'
+[184] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[200] Biber.pm:4334> INFO - Processing section 0
+[212] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[214] bibtex.pm:1682> INFO - LaTeX decoding ...
+[259] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[527] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[527] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[563] bbl.pm:651> INFO - Writing 'history.bbl' with encoding 'UTF-8'
+[582] bbl.pm:754> INFO - Output to history.bbl

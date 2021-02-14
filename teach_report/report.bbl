@@ -1310,6 +1310,7 @@
       \field{title}{Never at {{Rest}}: {{A Biography}} of {{Isaac Newton}}}
       \field{year}{1981}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
