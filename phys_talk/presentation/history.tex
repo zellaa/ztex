@@ -1,4 +1,61 @@
 \documentclass{beamer}
+\makeatletter
+\defbeamertemplate*{section page}{mytheme}[1][]{
+	\begin{figure}
+  \centering
+  \begin{minipage}{0.45\textwidth}
+	  \centering
+    %\raggedright
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+	\insertsectionhead\\[-1ex]
+    %\par
+    \ifx\insertsubsectionhead\@empty\else%
+      \usebeamercolor[fg]{subsection title}%
+      \usebeamerfont{subsection title}%
+      \insertsubsectionhead
+    \fi
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+	\centering
+	\vskip0.5cm
+    \ifstrempty{#1}{}{%
+		\flushright
+		\includegraphics[width=\textwidth]{#1}%
+    }
+  \end{minipage}
+  \end{figure}
+  %\par
+  %\vspace{\baselineskip}
+}
+\makeatother
+
+%%% Define a command to include picture in section, 
+%%% make section, and revert to old template
+
+\newcommand{\sectionpic}[2]{
+   \setbeamertemplate{section page}[mytheme][#2]
+   \section{#1}
+   \setbeamertemplate{section page}[mytheme]
+}
+
+
+
+
+
+\makeatletter
+\setbeamertemplate{footline}{%
+\leavevmode
+\vbox{\begin{beamercolorbox}[dp=1.25ex,ht=2.75ex]{fg=black}%
+  \hspace*{1em}\insertsectionhead%
+  \ifx\insertsubsectionhead\@empty\relax\else$\quad\mid\quad$\insertsubsectionhead\fi
+  \end{beamercolorbox}%
+  }%
+}
+\makeatother
+
+
+
 %\usepackage{pgfpages}
 %\setbeameroption{show notes on second screen=right}
 %setup images
@@ -32,7 +89,7 @@
 \renewcommand{\thefootnote}{#1}
 \footnotetext[0]{#2}}}
 
-\title{Fluxions, Forces, and Fields}
+\title{Fluxions, Forces, and Fields:}
 \subtitle{\small \emph{An overview of the mathematisation of physics in Europe through the modern period}}
 \date{\today}
 \author{Zella Baig}
@@ -113,18 +170,22 @@
 		%\item First major (relevant) shift comes with Bacon \& his \emph{Novum Organum}{\autocite{novorg}} {\color{mEm}- the birth of the scientific method?}
 	%\end{itemize}
 %\end{frame}
-\section{Isaac Newton (1642-1727)}
+  \sectionpic{The Birth of an Era: \\Isaac Newton\\\scriptsize{(1643-1727)}}{newton}
 \begin{frame}{Newtonian Mathematical Ideals}
+	%\begin{figure}[h]
+		%\includegraphics[scale=0.2]{newt}
+	%\end{figure}
 	\begin{itemize}
-		\item \onslide Saw God as mathematical, with a fondness for geometry\textsuperscript{ii}
+		\item \onslide Saw God as mathematical, with a fondness for geometry
 			\note[item]{Mention how in his work he would often discuss god, and the ancients}
 			\note[item]{also bring up how his physical work is but a portion of his alchemy and other work}
-		\item Would have grown up with Cartesianism (deductive reasoning), but clashed with it later in life\autocite{westfall}
+		\item Fluxions \& Fluents\textsuperscript{i}
+		\item Clashes with Cartesianism\autocite{westfall}
 			\note[item]{One major reason for this was the concept of force at a distance}
 		%\item Sought 'elegance' in mathematics{ \autocite{westfall}}
 			%\note[item]{As well as being haughty, he was also a very petty man - bring up removing 'esteemed' to 'mr'}
 	\end{itemize}
-	\customfootnotetext{ii}{Newton's piety would greatly influence his work}
+	\customfootnotetext{i}{For reading on notational impact, see: \cite{guiccardinidevelopment,dotage,boyercalc}}
 \end{frame}
 \begin{frame}{Experimental Philosophy}
 	\begin{itemize}
@@ -165,7 +226,8 @@
 			%\note[item]{Newton's calculus more influential simply for the scientific ramifications - his philosophy and the discovery of Halley's comet}
 	%\end{itemize}
 %\end{frame}
-\section{The Dynamical Age: Continental Physics}%
+%\section{The Dynamical Age: Continental Physics}%
+  \sectionpic{The Dynamical Age: Pierre-Simon Laplace\\\scriptsize{(1749-1827)}}{laplace}
 %\begin{frame}{Putting Calculus to Use}
 	%\begin{itemize}
 		%\item Euler, Clairaut, and others applied Newton's experimental philosophy\autocite{shapiro} to various problems, gradually verifying several with observations
@@ -180,7 +242,7 @@
 \begin{itemize}
 	\item The rise of French scientific dominance
 		\note[item]{Discuss napoleons upbringing - had laplace as a teacher, was fond of mathematics}
-	\item Physics spearheaded by Laplace in early C19, who took an ''astronomical view of nature''{ \autocite{merz}}
+	\item Physics spearheaded by Laplace (1749-1827) in early C19, who took an ''astronomical view of nature''{ \autocite{merz}}
 	\item Prevalence of central-force based models, for even minute scales{ \autocite{foxl}}
 		\note[item]{these had traditionally been the bread and butter of newtonian calculus}
 	\item Competitions set-up with e.g. the Society of Arcueil to promote mathematical collaboration
@@ -188,8 +250,9 @@
 	\item Development of light, heat, and electromagnetic theory with various contestants (e.g. Fourier) - via Laplacian methods
 \end{itemize}
 \end{frame}
-\section{Energy Physics}%
-\begin{frame}{William Thomson (1824-1907)}
+%\section{Energy Physics}%
+  \sectionpic{Heating Up:\\ William Thomson\\\scriptsize{(1824-1907)}}{kv}
+\begin{frame}{Thomson \& Energy}
 	\begin{itemize}
 		\item Ideas of \emph{vis-viva} around since Leibniz, \emph{caloric} furthered by e.g. Carnot in early C19
 			\note[item]{Energy ideas were floating around - it being created, being a fluid, etc}
@@ -210,7 +273,8 @@
 %\end{itemize}
 %\customfootnotetext{iii}{In fact, 'energy' as a concept was not taught much \emph{at all}}
 %\end{frame}
-\section{James Maxwell (1831-1879)}%
+  \sectionpic{Models and Mathematics:\\James Clerk Maxwell\\\scriptsize{(1831-1879)}}{gg}
+%\section{James Maxwell (1831-1879)}%
 %\begin{frame}{Maxwell \& Thomson}
 %\begin{itemize}
 	%\item Both mathematically inclined Scottish physicists (contrasting to e.g. Faraday) \autocite{Gooding1985}
@@ -224,7 +288,7 @@
 	%\item On electromagnetism, pondered the nature of the 'store' of energy, e.g. in his \emph{Dynamical Theory}{ \autocite{maxdynamicaltheory}}
 %\end{itemize}
 %\end{frame}
-\begin{frame}{Electromagnetism}
+\begin{frame}{The Birth of Electromagnetism}
 	\begin{itemize}
 		\item Faraday had done groundbreaking work on electromagnetism, but almost entirely qualitative
 		\item Maxwell reticent to attribute any physical cause; \emph{Faraday's Lines}{\only \autocite{maxfaradaylines}} makes no claim of physicality
@@ -261,12 +325,12 @@
 			\note[item]{Discuss how this was brought about with textbook usage by Clifford and Gibbs mainly, when lecturing in the US. Heavyside was mainly consolidating Maxwell's work}
 	\end{itemize}
 \end{frame}
-\section{Aether Theory \& Special Relativity}%
+  \sectionpic{Transformations \& Time:\\Henri Poincaré\\\scriptsize{(1854-1912)}}{ponc}
 \begin{frame}{The First Cracks}
 \begin{itemize}
 	\item Following Maxwell's work, electromagnetism became dominant{ \autocite{maxwellians}}
 		\note[item]{Dominant in the sense it led to an explosion of work around electromagnetism, light, and energy.}
-	\item  The nature of the aether{ \textsuperscript{iv}} was hotly debated
+	\item  The nature of the aether was hotly debated
 		\note[item]{Discuss michelson morley experiment and conflicting results - stokes' dragging hypotheses, fizeaus water experiment etc.}
 	\item Lorentz develops ideas of 'local time' \& 'corresponding states' (co-ordinate transforms - \emph{but only of EM waves}\autocite{brownspec})
 		%\begin{itemize}
@@ -274,10 +338,10 @@
 				%\note[item]{Stress this point - Lorentz was seemingly not aware of the physical connotations; had merely shown that this was a hypothesis that could work. Also had funnily enough made a factor of 2 error in his work}
 		%\end{itemize}
 \end{itemize}
-\only\customfootnotetext{iv}{In fact, Newton's initial work necessitated a vacuum in space}
+%\only\customfootnotetext{iv}{In fact, Newton's initial work necessitated a vacuum in space}
 %\footnotetext[3]{Largely by the \emph{Maxwellians:} Lodge, Fitzgerald, Hertz, and others}
 \end{frame}
-\begin{frame}{Henri Poincaré (1854-1912)}
+\begin{frame}{Developing Physicality}
 	\begin{itemize}
 		%\item Able to infer physicality of Lorentz' transformations{ \autocite{darrigol}}
 		\item Develops theory to be (functionally) identical to modern Lorentz transformations\autocite{darrigol}

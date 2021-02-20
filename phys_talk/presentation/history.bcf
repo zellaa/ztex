@@ -2353,22 +2353,25 @@
     <bcf:citekey order="1">specrel</bcf:citekey>
     <bcf:citekey order="2">newchart</bcf:citekey>
     <bcf:citekey order="3">westfall</bcf:citekey>
-    <bcf:citekey order="4">newtonprinc</bcf:citekey>
-    <bcf:citekey order="5">principia</bcf:citekey>
-    <bcf:citekey order="6">merz</bcf:citekey>
-    <bcf:citekey order="7">foxl</bcf:citekey>
-    <bcf:citekey order="8">newchart</bcf:citekey>
-    <bcf:citekey order="9">thomdynam</bcf:citekey>
-    <bcf:citekey order="10">maxfaradaylines</bcf:citekey>
-    <bcf:citekey order="11">maxdynamicaltheory</bcf:citekey>
-    <bcf:citekey order="12">maxphysicallines</bcf:citekey>
-    <bcf:citekey order="13">heavyside</bcf:citekey>
-    <bcf:citekey order="14">vecanal</bcf:citekey>
-    <bcf:citekey order="15">maxwellians</bcf:citekey>
-    <bcf:citekey order="16">brownspec</bcf:citekey>
-    <bcf:citekey order="17">darrigol</bcf:citekey>
-    <bcf:citekey order="18">poincare</bcf:citekey>
-    <bcf:citekey order="19">fond</bcf:citekey>
+    <bcf:citekey order="4">guiccardinidevelopment</bcf:citekey>
+    <bcf:citekey order="4">dotage</bcf:citekey>
+    <bcf:citekey order="4">boyercalc</bcf:citekey>
+    <bcf:citekey order="5">newtonprinc</bcf:citekey>
+    <bcf:citekey order="6">principia</bcf:citekey>
+    <bcf:citekey order="7">merz</bcf:citekey>
+    <bcf:citekey order="8">foxl</bcf:citekey>
+    <bcf:citekey order="9">newchart</bcf:citekey>
+    <bcf:citekey order="10">thomdynam</bcf:citekey>
+    <bcf:citekey order="11">maxfaradaylines</bcf:citekey>
+    <bcf:citekey order="12">maxdynamicaltheory</bcf:citekey>
+    <bcf:citekey order="13">maxphysicallines</bcf:citekey>
+    <bcf:citekey order="14">heavyside</bcf:citekey>
+    <bcf:citekey order="15">vecanal</bcf:citekey>
+    <bcf:citekey order="16">maxwellians</bcf:citekey>
+    <bcf:citekey order="17">brownspec</bcf:citekey>
+    <bcf:citekey order="18">darrigol</bcf:citekey>
+    <bcf:citekey order="19">poincare</bcf:citekey>
+    <bcf:citekey order="20">fond</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

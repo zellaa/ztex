@@ -78,7 +78,6 @@
       \field{title}{The {{History}} of the {{Calculus}} and {{Its Conceptual Development}}}
       \field{year}{2012}
       \field{dateera}{ce}
-      \true{nocite}
       \keyw{Mathematics / Calculus,Mathematics / History & Philosophy}
     \endentry
     \entry{brownspec}{book}{}
@@ -268,6 +267,31 @@
       \field{pages}{1\bibrangedash 44}
       \range{pages}{44}
     \endentry
+    \entry{kimg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7094456fc6500ec5b854558464ae6c88}{%
+           family={Dickinson},
+           familyi={D\bibinitperiod},
+           given={Messrs},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7094456fc6500ec5b854558464ae6c88}
+      \strng{fullhash}{7094456fc6500ec5b854558464ae6c88}
+      \strng{bibnamehash}{7094456fc6500ec5b854558464ae6c88}
+      \strng{authorbibnamehash}{7094456fc6500ec5b854558464ae6c88}
+      \strng{authornamehash}{7094456fc6500ec5b854558464ae6c88}
+      \strng{authorfullhash}{7094456fc6500ec5b854558464ae6c88}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photograph of William Thomson, Lord Kelvin.}
+      \field{year}{1911}
+      \true{nocite}
+    \endentry
     \entry{foxl}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=081b067887d11acabb99539cb7aec7cc}{%
@@ -407,6 +431,31 @@
       \verb /home/sulch/Zotero/storage/6YYVT6RW/Greenberg - 1986 - Mathematical Physics in Eighteenth-Century France.pdf
       \endverb
     \endentry
+    \entry{lapimg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d639ff8b4079a21ef6a6478cdcc50aa}{%
+           family={Guérin},
+           familyi={G\bibinitperiod},
+           given={Jean-Baptiste\bibnamedelima Paulin},
+           giveni={J\bibinithyphendelim B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \strng{fullhash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \strng{bibnamehash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \strng{authorbibnamehash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \strng{authornamehash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \strng{authorfullhash}{4d639ff8b4079a21ef6a6478cdcc50aa}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pierre Simon Marquis de Laplace (1745-1827)}
+      \field{year}{1838}
+      \true{nocite}
+    \endentry
     \entry{dotage}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=21acfafcf88272318e5c695f4fc18a5b}{%
@@ -437,7 +486,6 @@
       \field{volume}{9}
       \field{year}{2004}
       \field{dateera}{ce}
-      \true{nocite}
       \field{pages}{218\bibrangedash 256}
       \range{pages}{39}
     \endentry
@@ -472,7 +520,6 @@
       \field{title}{The {{Development}} of {{Newtonian Calculus}} in {{Britain}}, 1700–1800}
       \field{year}{1989}
       \field{dateera}{ce}
-      \true{nocite}
     \endentry
     \entry{heavyside}{article}{}
       \name{author}{1}{}{%
@@ -574,6 +621,31 @@
       \field{title}{The {{Optics}} and {{Electrodynamics}} of {{Moving Bodies}}}
       \field{year}{2004}
       \field{dateera}{ce}
+    \endentry
+    \entry{newtimg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5140f9f442a63ccc6f73a8c54dac11fa}{%
+           family={Kneller},
+           familyi={K\bibinitperiod},
+           given={Godfrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \strng{fullhash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \strng{bibnamehash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \strng{authorbibnamehash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \strng{authornamehash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \strng{authorfullhash}{5140f9f442a63ccc6f73a8c54dac11fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Portrait of {Newton} at 46}
+      \field{year}{1689}
+      \true{nocite}
     \endentry
     \entry{maxdynamicaltheory}{article}{}
       \name{author}{1}{}{%
@@ -1045,6 +1117,28 @@
       \field{pages}{147}
       \range{pages}{1}
     \endentry
+    \entry{pimg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4f27489b52b1cbea0fb9dc3eccb0341}{%
+           family={{Popular Science Monthly}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \strng{fullhash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \strng{bibnamehash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \strng{authorbibnamehash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \strng{authornamehash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \strng{authorfullhash}{a4f27489b52b1cbea0fb9dc3eccb0341}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Henri Poincaré}
+      \field{year}{1913}
+      \true{nocite}
+    \endentry
     \entry{baconian}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=842fb41a11c8513da916f4abae946f14}{%
@@ -1172,6 +1266,31 @@
       \field{dateera}{ce}
       \field{pages}{231\bibrangedash 279}
       \range{pages}{49}
+    \endentry
+    \entry{mimg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f58bd609100f5c963679fe337f1bf10}{%
+           family={Stodart},
+           familyi={S\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f58bd609100f5c963679fe337f1bf10}
+      \strng{fullhash}{8f58bd609100f5c963679fe337f1bf10}
+      \strng{bibnamehash}{8f58bd609100f5c963679fe337f1bf10}
+      \strng{authorbibnamehash}{8f58bd609100f5c963679fe337f1bf10}
+      \strng{authornamehash}{8f58bd609100f5c963679fe337f1bf10}
+      \strng{authorfullhash}{8f58bd609100f5c963679fe337f1bf10}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Engraving of James Clerk Maxwell}
+      \field{year}{1890}
+      \true{nocite}
     \endentry
     \entry{taitletter}{book}{}
       \name{author}{1}{}{%
