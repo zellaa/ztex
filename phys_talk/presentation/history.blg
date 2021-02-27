@@ -1,15 +1,15 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'history.blg'
-[89] biber:330> INFO - === Sat Feb 20, 2021, 09:42:01
-[105] Biber.pm:415> INFO - Reading 'history.bcf'
-[187] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[203] Biber.pm:4334> INFO - Processing section 0
-[215] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[217] bibtex.pm:1682> INFO - LaTeX decoding ...
-[265] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[563] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[563] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[607] bbl.pm:651> INFO - Writing 'history.bbl' with encoding 'UTF-8'
-[628] bbl.pm:754> INFO - Output to history.bbl
+[187] biber:330> INFO - === Sat Feb 27, 2021, 13:40:43
+[212] Biber.pm:415> INFO - Reading 'history.bcf'
+[369] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[398] Biber.pm:4334> INFO - Processing section 0
+[429] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[432] bibtex.pm:1682> INFO - LaTeX decoding ...
+[535] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[1171] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1172] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1172] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1172] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[1288] bbl.pm:651> INFO - Writing 'history.bbl' with encoding 'UTF-8'
+[1334] bbl.pm:754> INFO - Output to history.bbl

@@ -1,4 +1,5 @@
 \documentclass[a4paper,openany,nobib]{tufte-book}
+\usepackage{mathtools}
 %define colours
 \usepackage{xcolor}
 \definecolor{tred}{HTML}{450000}
@@ -15,24 +16,92 @@
 \fancypagestyle{plain}{}
 %%references
 \usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
-\addbibresource{refs.bib}
+\addbibresource{ref.bib}
 %%final styling
-\title{Voltage}
+\title{Pupil misconceptions:\\ \noindent circuits and voltage}
 \author{Zella Baig}
 \publisher{\today}
-\color{tgray}
-\colorlet{darkgray}{tred}
+%\color{tgray}
+%\colorlet{darkgray}{tred}
 \begin{document}
 \frontmatter
 {\maketitle}
 \tableofcontents
 \thispagestyle{empty}
 \mainmatter
-\chapter{Chapter 1}
-Hello
+\chapter{Background \& Outline}
 \setcounter{page}{1}
+It has been well established that that younger, secondary school-age children often struggle with the concept of 'electricity'\autocite{psillos}. This manifests in many different ways; through misconceptions regarding the physical processes which occur themselves, the mechanisms through which they occur, or indeed manipulations of existing circuitry. Much discussion has been had regarding the origin of these misconceptions, and there are several well-established theories as to the exact origin of these ideas. Regardless, it is known that these misconceptions are both difficult to move past (even when given explicit teaching on), and indeed sometimes difficult to identify by educators even when they exist\autocite{lee2001}. The aim of this report is to examine these misconceptions both with primary data collected from a local secondary school, as well as information gathered from wider reading regarding the subject matter.
+
+In particular, one concept which seems to appear repeatedly as one which causes difficulty is that of voltage: not only is the concept fundamentally misunderstood\autocite{shipstone_children}, but when it does play a part within students' reasoning for circuit theory it often plays a secondary role to other concepts (chiefly, current). This may, perhaps, be related to the method of teaching. Härtel\autocite{hartel82} discusses how students' reasoning seems to follow the order:
+\begin{align*}
+	\text{Current}\rightarrow \text{Charge} \rightarrow \text{Voltage} \rightarrow \text{Resistance}
+\end{align*}
+which is to say that the notion of voltage only appears in their reasoning \emph{after} they have examined the current and charge response. This is, of course, problematic given in many ways how \emph{voltage} is the initial concept \emph{causing} the various responses in the current; considering the changes in the circuit purely in terms of energy responses.
+
+Before discussing the misconceptions which students hold when analysing circuits, it is worth looking at the reasons \emph{why} they might hold the ideas that they do.
+Relevant to the previous point made about discussion of energy, there is literature to suggest how the students refuse to think in terms of energy in circuits (or, indeed, get it mixed with the concept of 'current', or more broadly, 'electricity').
+Another, perhaps more relevant point to this discussion, is the idea of models.
+Upon learning new ideas students are likely to adopt various models to help explain ideas\autocite{bagno2000}, but often encounter difficulty particularly within circuits \& electricity due to a lack of real-world links between the microscopic behaviour within the circuits to macroscopic phenomena. Students usually simply have incorrect models, misapply models, or are unable to transform between their models to circuit behaviour correctly.
+
+As Gutwill et al.\autocite{gutwill99} state, there is also a difficulty in linking ``mechanisms'' \& ``representations''.
+Students, in general, view circuits from three different perspectives:
+\begin{enumerate}
+	\item Microscopic, e.g. with electrons and charge carriers
+	\item Aggregate, e.g. considering current and potential difference
+	\item Topological, e.g. open/closed circuits and the physical relations between components
+\end{enumerate}
+Bearing in mind the previous discussion, one may see how students would encounter difficulty in linking their physical intuitions not only to each of the perspectives individually, but also of trying to relate changes in one to that in another given how the concepts \emph{within} the different perspectives are already ill-defined. More generally, it appears that students think of perturbations of circuits in three broad models\autocite{ates2005}:
+\begin{enumerate}
+	\item Sequentially, where current is affected by changes as it travels
+	\item Locally, where perturbations are contained within a single branch of the circuit
+	\item Via superposition, where changes can be seen to be 'stacked' on top of pre-existing conditions
+\end{enumerate}
+When looking at the exact ``mechanisms'' which are employed when using these models, it is worth discussing \emph{phenomenological primitives}, or \emph{p-prims} for short\autocite{prim}. 
+
+P-prims (representing intuitive ideas which ``are usually evident in our everyday experience''), or the lack thereof, may be one avenue through which these misconceptions arise. If the knowledge which students are fed is obfuscated from their own lines of reasoning - either from superfluous teaching of models when ideas may be self developed or indeed through being taught in a manner too 'abstract' for students to pick up on at a p-prim level, students may not only pick up the wrong ideas but find it more difficult to adjust their misconceptions. In fact, this conclusion is backed up by Ugur et al.\autocite{ugur}, where it was found that despite targeted teaching on intuition-based knowledge, misconceptions still seemed to remain within students' ideas of circuit theory.
+
+Expanding upon this, in work done by Chi \& Slotta\autocite{slotta} there is evidence to suggest that the difficulties which students have in not only constructing the models to employ but in changing the models they use when taught lies with the ontological catagorisation: Lee and Law\autocite{lee2001} discuss how
+\begin{itemize}
+	\item Students catagorise processes (in general) as either 'matter' based, or 'process' based;
+	\item In general students seem to naturally prefer 'matter' based models of circuits;
+	\item There is evidence to suggest 'process' based models provide better understanding of circuit behaviour;
+	\item And perhaps most interestingly, that voltage as a concept was thought of as 'process' based more often than other circuit concepts.
+\end{itemize}
+We see here links to our earlier discussion on p-prims:
+in seeing concepts as 'matter' based perhaps students are employing intuitive matter-based p-prims (and extending this may lack the necessary p-prims to conceptualise voltage in the same manner). This, along with the preference to catagorise voltage as a 'process' concept may be evidence that students have a greater lack of intuitive parallels for voltage than other concepts in circuit theory - and thus that education may need to be modified to account for this. 
+
+Looking now at the models themselves, Osborne\autocite{osb} identified several recurring misconceptions which students seemed to have, in fact still seem to have, as evidenced by modern literature (e.g. Suryadi et al.\autocite{suryadi2020}). 
+Some common models are:
+\begin{itemize}
+	\item The battery as a source of \emph{current} 
+	\item Current being 'used up' by components as it travels
+	\item \emph{Sequential reasoning}, where changes propagate along the flow of current
+	\item \emph{Local reasoning}, where only isolated parts (e.g. a single branch) of the circuit are examined rather than global phenomena
+\end{itemize}
+Again, several of these misconceptions can be tied directly to a lack of conceptual understanding of the 'changes' which occur within a circuit - which itself links to the notion of voltage and what it represents in terms of energy flow; similar views have been expressed in further literature such as Eylon and Ganiel\autocite{eylon1990}
+
+Thus, this report shall focus on examining the misconceptions which students hold with the inter-relations of energy, voltage, \& current, and seek to examine the conceptual processes which students undergo when dealing with these ideas in various circuits.
+\newpage
+\chapter{Methodology}%
+The design of the surveys given to students was largely based off of those conducted in previous literature, such as by Shipstone et al., Afra et al., or Küçüközer and Kocakülah\autocite{shipstone_europe,afra2009,kucu2007}. In essence, the survey has been designed to incorporate a range of short and long-form responses, based upon circuit diagrams which are given to the students. When used, all component values were chosen that integer values would be obtained for any reasonably possible calculation such that the focus of the student remain on the conceptual ideas of the question as opposed to the mathematics.
+
+The survey was split into 3 sections:
+\begin{itemize}
+	\item[S1.] Series and Parallel Circuits
+	\item[S2.] Circuit Ideas
+	\item[S3.] Circuit Reasoning
+\end{itemize}
+\marginnote{Full copies of the surveys given to the pupils are available in Appendix A}
+S1 dealt with steady-state behaviour and changes in both series and parallel circuits with multiple resistances. With the exception of a question asking for an explanation of any percieved differences between series and parallel circuits, all the prompts were multiple choice. This section was designed to be the most standard - almost akin to what these students would have encountered during their secondary education. The aim of this section was to identify any glaring misunderstandings of circuit behaviour and perturbations.
+
+S2 broadly covered two topics:
+that of potential difference (in examining what it was thought to be and what purpose it served)
+, and that of differences \& perturbations within circuits at a conceptual level; that is to say examining how students approach these concepts in relation to ideas such as ``charge'' or ``potential difference''. 
+To this end, no numerical responses were required (though basic component values were given for clarity).
+
+S3, the final section, was purely open ended and asked the students to compare a series and parallel configuration of bulbs in an otherwise identical configuration, and also to highlight any further difficulties with the idea of ``voltage''.
+The first question in this section was deliberately left open-ended, as to be able to ascertain what links and comparisons with bulb brightness to circuit ideas could be drawn up by the students themselves - in short, this section served to draw out their self-employed methods for tackling circuit problems.
 \nocite{*}
 \printbibliography
 \end{document}
-
-
