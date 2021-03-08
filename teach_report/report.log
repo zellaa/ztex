@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  26 FEB 2021 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  27 FEB 2021 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,7 +1083,7 @@ LaTeX Warning: Marginpar on page 1 moved.
 LaTeX Warning: Marginpar on page 1 moved.
 
 
-Overfull \hbox (0.13698pt too wide) in paragraph at lines 42--46
+Overfull \hbox (0.13698pt too wide) in paragraph at lines 46--50
 \T1/pplj/m/n/10 (+9) point made about discussion of energy, there is literature
  to suggest 
  []
@@ -1095,7 +1095,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 
+l.50 
       [1
 
 
@@ -1110,7 +1110,7 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (0.10606pt too wide) in paragraph at lines 62--63
+Overfull \hbox (0.10606pt too wide) in paragraph at lines 66--67
 \T1/pplj/m/n/10 (+18) may be self de-vel-oped or in-deed through be-ing taught 
 in a man-ner 
  []
@@ -1119,7 +1119,7 @@ in a man-ner
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (0.1201pt too wide) in paragraph at lines 64--66
+Overfull \hbox (0.1201pt too wide) in paragraph at lines 68--70
 \T1/pplj/m/n/10 (+6) only constructing the models to employ but in changing the
  models 
  []
@@ -1131,14 +1131,14 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-66.
+70.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 	\item T
+l.72 	\item T
              here is evidence to suggest 'process' based models provide bett...
 [2]
 
@@ -1160,19 +1160,19 @@ LaTeX Warning: Marginpar on page 4 moved.
 [4
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 10
-6.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 11
+0.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 106.
+(Font)              scaled to size 8.50006pt on input line 110.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.13182pt too wide) in paragraph at lines 107--107
+Overfull \hbox (0.13182pt too wide) in paragraph at lines 111--111
 \T1/pplj/m/n/10 (+8) Understanding of Different Aspects in Resistive DC Circuit
 s''. 
  []
@@ -1180,7 +1180,7 @@ s''.
 [5
 
 ]
-Overfull \hbox (17.05309pt too wide) in paragraph at lines 107--107
+Overfull \hbox (17.05309pt too wide) in paragraph at lines 111--111
 \T1/pplj/m/n/10 (-20) 1982), pp. 45^^U55. \T1/pplj/m/sc/10/50ls (-20) issn\T1/p
 plj/m/n/10 (-20) : 0140-5284. \T1/pplj/m/sc/10/50ls (-20) doi\T1/pplj/m/n/10 (-
 20) : []$\T1/fvm/m/n/10 10 . 1080 / 0140528820040106$[]\T1/pplj/m/n/10 (-20) . 
@@ -1193,20 +1193,20 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 22393 strings out of 479383
- 368457 string characters out of 5875831
+ 22403 strings out of 479383
+ 368542 string characters out of 5875831
  1151510 words of memory out of 5000000
  38865 multiletter control sequences out of 15000+600000
- 494287 words of font info for 305 fonts, out of 8000000 for 9000
+ 494849 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 97i,13n,100p,993b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,13n,100p,839b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/fpl/fplrc8a.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on report.pdf (9 pages, 103519 bytes).
+Output written on report.pdf (9 pages, 103443 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams

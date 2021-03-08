@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1614332573 "report.bcf" "report.bbl" "report" 1614344603
+["biber report"] 1614332573 "report.bcf" "report.bbl" "report" 1614434682
   "ref.bib" 1614332570 11298 e945a0e9828b31e5967c95310327dd9c ""
-  "report.bcf" 1614344602 107998 77ff041c43125b6896120976c572dc2b "pdflatex"
+  "report.bcf" 1614434682 107998 77ff041c43125b6896120976c572dc2b "pdflatex"
   (generated)
-  "report.blg"
   "report.bbl"
-["pdflatex"] 1614344600 "report.tex" "report.pdf" "report" 1614344603
-  "/dev/null" 1614322734 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "report.blg"
+["pdflatex"] 1614434680 "report.tex" "report.pdf" "report" 1614434682
+  "/dev/null" 1614404992 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-book.cls" 1613292990 2212 72b8d9b2edd5e439b6164c9cfea2517f ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-common.def" 1614246848 70890 39ee6270ae2a5eaafbeb4d9099c5adc6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1607249373 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -165,17 +165,17 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1607249373 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1610103209 4886033 e91e60ad789ae1edf8acc608421bf650 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1610103176 2635859 4000d962c412d25ec0e1c7c02da39147 ""
-  "report.aux" 1614344602 4438 548c5f425af7ac6fbded266ec4e1c3b2 "pdflatex"
+  "report.aux" 1614434682 4438 548c5f425af7ac6fbded266ec4e1c3b2 "pdflatex"
   "report.bbl" 1614332574 46273 3708215f22cf43f4db900b7888b95b80 "biber report"
-  "report.out" 1614344602 252 2e534e1126113ae90b3314d25e4f9d41 "pdflatex"
-  "report.run.xml" 1614344602 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
-  "report.tex" 1614344600 10955 7b2923e28bd1f041248c88409dabd2c2 ""
-  "report.toc" 1614344602 307 d9e4e34307d4eb8283285e9460b6f227 "pdflatex"
+  "report.out" 1614434682 252 2e534e1126113ae90b3314d25e4f9d41 "pdflatex"
+  "report.run.xml" 1614434682 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
+  "report.tex" 1614434680 10973 483720391f0a006e387d50064b363f49 ""
+  "report.toc" 1614434682 307 d9e4e34307d4eb8283285e9460b6f227 "pdflatex"
   (generated)
-  "report.pdf"
   "report.aux"
-  "report.toc"
-  "report.out"
   "report.run.xml"
+  "report.out"
+  "report.toc"
   "report.log"
   "report.bcf"
+  "report.pdf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  27 FEB 2021 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  3 MAR 2021 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,7 +1467,7 @@ Package logreq Info: Writing requests to 'history.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  29072 strings out of 479383
- 575067 string characters out of 5875831
+ 575061 string characters out of 5875831
  1299589 words of memory out of 5000000
  45486 multiletter control sequences out of 15000+600000
  418630 words of font info for 81 fonts, out of 8000000 for 9000
@@ -1480,7 +1480,7 @@ ts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public
 ssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texm
 f-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on history.pdf (25 pages, 521489 bytes).
+Output written on history.pdf (25 pages, 521375 bytes).
 PDF statistics:
  326 PDF objects out of 1000 (max. 8388607)
  276 compressed objects within 3 object streams
