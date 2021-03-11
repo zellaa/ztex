@@ -1,22 +1,37 @@
 \documentclass[a4paper,openany,nobib]{tufte-book}
+
+%%math stuff
 \usepackage{mathtools}
-%define colours
+\usepackage{amssymb}
+
+%%define colours
 \usepackage{xcolor}
 \definecolor{tred}{HTML}{450000}
 \definecolor{tgray}{HTML}{161616}
+
 %%pictures
 \usepackage{graphicx}
 \graphicspath{{./pics/}}
-\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\setkeys{Gin}{width=\linewidth}%,totalheight=\textheight,keepaspectratio}
+
 %%pagestyle
 \usepackage[protrusion=true,expansion]{microtype}
 \usepackage{booktabs}
 \usepackage{fancyvrb}
 \fvset{fontsize=\normalsize}
 \fancypagestyle{plain}{}
+
+%%questionnaire macros
+\usepackage{forloop}% used for \Qrating and \Qlines
+\newcommand{\Qline}[1]{\noindent\rule{#1}{0.6pt}}
+\newcounter{ql}
+\newcommand{\Qlines}[1]{\forloop{ql}{0}{\value{ql}<#1}{\vskip0em\Qline{\linewidth}}}
+
 %%references
 \usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
 \addbibresource{ref.bib}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
 %%final styling
 \title{Pupil misconceptions:\\ \noindent circuits and voltage}
 \author{Zella Baig}
@@ -90,7 +105,7 @@ Thus, this report shall focus on examining the misconceptions which students hol
 \chapter{Methodology}%
 The design of the surveys given to students was largely based off of those conducted in previous literature, such as by Shipstone et al., Afra et al., or Küçüközer and Kocakülah\autocite{shipstone_europe,afra2009,kucu2007}. In essence, the survey has been designed to incorporate a range of short and long-form responses, based upon circuit diagrams which are given to the students. When used, all component values were chosen that integer values would be obtained for any reasonably possible calculation such that the focus of the student remain on the conceptual ideas of the question as opposed to the mathematics.
 
-The survey was split into 3 sections:
+The survey was given to two Year 9 classes and three Year 10 classes, for a total of 84 responses (split $35+49$ for each year group respectively). The Y9 group had covered electricity at at a pre-GCSE level, and the Y10 group at a GCSE level. The survey was split into 3 sections:
 \begin{itemize}
 	\item[S1.] Series and Parallel Circuits
 	\item[S2.] Circuit Ideas
@@ -106,6 +121,156 @@ To this end, no numerical responses were required (though basic component values
 
 S3, the final section, was purely open ended and asked the students to compare a series and parallel configuration of bulbs in an otherwise identical configuration, and also to highlight any further difficulties with the idea of ``voltage''.
 The first question in this section was deliberately left open-ended, as to be able to ascertain what links and comparisons with bulb brightness to circuit ideas could be drawn up by the students themselves - in short, this section served to draw out their self-employed methods for tackling circuit problems.
+\backmatter
+\chapter{Appendix A: Questionnaire}
+\marginnote{This section contains a remake of the questionnaire, sent initially on Google Forms, and as such is formatted slightly differently to the one sent to students. All content remains the same
+
+A read-only copy of the questionnaire is viewable at: \href{https://forms.gle/d9x5bSBppvJrQ4aA9}{https://forms.gle/d9x5bSBppvJrQ4aA9}}
+The goal of this questionnaire is, to put it briefly, to analyse how students think about circuits and energy, as well as related ideas. The goal isn't to get all the answers right - indeed for some of the questions there are no right answers at all (though there are for others - which you should try to answer to the best of your ability). Instead, the questions will try to focus on understanding how you might go about thinking about circuits, and how you apply those ideas to questions you encounter.
+
+The information gathered from these responses will be used as part of a wider report on the difficulties and misconceptions students have with circuit ideas - in particular the nature and role of voltage, which has generally been known to cause more issues than other concepts within circuit.
+
+When desired, you may refer to figures and components by the abbreviations given (for example, shortening Circuit 6 to C6); note however this is not mandatory.
+
+Responses will be anonymised within the report.
+
+\newthought{\LARGE{A refresher}}
+
+As you may recall from your classes, circuits involve several conceptual ideas such as voltage (measured in volts), current (measured in amperes), power (in watts), charge (in coulombs), and energy (in joules) - amongst many others. 
+
+To give a brief overview, some energy source (usually a battery) enables the flow of charge within a circuit (usually through electrons in wires), which allows the circuit to 'do' things, such as powering a bulb, turn on a screen, or many other things. This section will get you to analyse this idea in more detail, as well as perform some calculations with some example circuits.
+
+You may also remember that there are 2 broad types of circuits - series (such as Circuit 2, which you will encounter below) and parallel (such as Circuit 3). These types behave in different ways - and part of the questions will try to look at how you think about their differences and similarities in your head.
+\newpage
+\newthought{\LARGE{Section 1}}
+\begin{figure}[h!]
+	\center
+	\includegraphics[width=\linewidth]{simple}
+	\caption[][2cm]{Circuit 1}
+	\label{fig:marginfig}
+\end{figure}
+\begin{enumerate}
+    \item What would happen to the reading on a voltmeter connected across the resistor if I disconnect the battery from the circuit?
+		\begin{itemize}
+\item[$\square$]It would immediately drop to $0$ V
+	\item[$\square$]It would slowly drop to $0$ V
+	\item[$\square$]It would stay the same
+		\item[$\square$]It would rise to infinity
+\end{itemize}
+\item Now, what would happen to the voltmeter reading across the battery if I disconnect the battery from the circuit?
+	\begin{itemize}
+\item[$\square$]It would immediately drop to $0$ V
+	\item[$\square$]It would slowly drop to $0$ V
+	\item[$\square$]It would stay the same
+		\item[$\square$]It would rise to infinity
+	\end{itemize}
+\end{enumerate}
+\begin{figure}[h!]
+	\center
+	\includegraphics[width=\linewidth]{circ2}
+	\caption[][2cm]{Circuit 2}
+\end{figure}
+\begin{enumerate}
+	\setcounter{enumi}{2}
+	\item In Circuit 2, what is the reading on voltmeter V2 (which measures the potential difference across the 8 ohm resistor). 
+		\begin{itemize}
+			\item[$\square$]$16$ V
+			\item[$\square$]$4$ V
+			\item[$\square$]$2$ V
+			\item[$\square$]$8$ V
+		\end{itemize}
+	\item Compared to the 2 ohm resistor, the current going through the 8 ohm resistor is...
+	\begin{itemize}
+		\item[$\square$] The same
+		\item[$\square$] Lower
+		\item[$\square$] Higher
+	\end{itemize}
+\end{enumerate}
+\begin{figure}[h!]
+	\center
+	\includegraphics[width=0.5\linewidth]{circ3}
+	\caption[][3cm]{Circuit 3}
+\end{figure}
+\begin{enumerate}
+	\setcounter{enumi}{4}
+	\item In Circuit 3, what is the voltmeter reading for V1:
+		\begin{itemize}
+			\item[$\square$]$10$ V
+			\item[$\square$]$2$ V
+			\item[$\square$]$20$ V
+			\item[$\square$]$2.5$ V
+		\end{itemize}
+		\newpage
+	\item Compared to the 2 ohm resistor, the current going through the 8 ohm resistor is...
+	\begin{itemize}
+		\item[$\square$] The same
+		\item[$\square$] Lower
+		\item[$\square$] Higher
+	\end{itemize}
+\item For the questions before on Circuits 2 and 3, explain the differences in your answer, if any. Answer in terms of energy, charge, voltage, and current.
+		\Qlines{2}
+\end{enumerate}
+
+\newthought{\LARGE{Section 2}}
+\begin{enumerate}
+	\setcounter{enumi}{7}
+		\item What is potential difference? Do not answer in terms of formulae, instead think about what what this term represents in terms of charge.
+			\begin{itemize}
+				\item[$\square$]A property of current which relates it to the energy carried by the charge carriers
+				\item[$\square$]The difference in energy between 2 points through which charge carriers travel
+				\item[$\square$]The force that acts on the charge carriers between 2 points in a circuit
+				\item[$\square$]The force caused by the charge carriers between 2 points on a circuit
+			\end{itemize}
+		\item What is the role of a battery in a circuit?
+		\begin{itemize}
+			\item[$\square$]To act as a source of current
+			\item[$\square$]To provide energy to the charge carriers
+			\item[$\square$]To create energy in the form of charge
+			\item[$\square$]To act a source of voltage
+		\end{itemize}
+\end{enumerate}
+\newpage
+\begin{figure}[h!]
+	\center
+	\includegraphics[width=\linewidth]{Vary}
+	\caption[][3cm]{Circuit 4}
+\end{figure}
+\begin{enumerate}
+		\setcounter{enumi}{9}
+		\item Consider Circuit 4. The readings on the ammeters (which measure the current going through them) AM1 and AM2 are:
+		\begin{itemize}
+			\item[$\square$] The same
+			\item[$\square$] Different
+		\end{itemize}
+	\item The readings on the voltmeters VM1 and VM2 are:
+		\begin{itemize}
+			\item[$\square$] The same
+			\item[$\square$] Different
+		\end{itemize}
+	\item Consider Circuit 4 in terms of the flow of charge, and what is going on with the charge carriers. Suddenly, I change the resistance of the resistor. What is the correct ordering of events?
+		\begin{itemize}
+			\item[$\square$] AM1 changes, then AM2 does
+			\item[$\square$] AM2 changes, then AM1 does
+			\item[$\square$] They both change at the same time
+			\item[$\square$] Neither changes
+		\end{itemize}
+\item For whichever answer you chose to the previous question, explain your answer:
+		\Qlines{2}
+\end{enumerate}
+\newpage
+\newthought{\LARGE{Section 3}}
+\begin{figure}[h!]
+	\center
+	\includegraphics[width=\linewidth]{comp}
+	\caption[][3cm]{Circuits 5 \& 6}
+\end{figure}
+\begin{enumerate}
+		\setcounter{enumi}{13}
+		\item Compare the brightness of Bulb 1 (B1) \& Bulb 2 (B2) in Circuits 5 (C5) \& Circuit 6 (C6). Assume the voltage of the battery is the same in both cases. Justify your reasoning 
+		\Qlines{2}
+		\item What conceptual difficulties do you have with the concept of voltage, if any?
+		\Qlines{2}
+\end{enumerate}
 \nocite{*}
-\printbibliography
+\printbibliography[heading=bibintoc]
 \end{document}

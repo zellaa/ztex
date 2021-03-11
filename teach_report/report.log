@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  27 FEB 2021 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  9 MAR 2021 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,6 +546,17 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \xmathstrut@box=\box99
 \xmathstrut@dim=\dimen185
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -613,62 +624,67 @@ Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \FV@StepNumber=\count305
 \FV@OutFile=\write3
 )
+(/usr/share/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+\c@ql=\count306
+
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
 
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count306
+\etb@tempcnta=\count307
 )
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count307
+\lrq@indent=\count308
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count308
-\c@listtotal=\count309
-\c@listcount=\count310
-\c@liststart=\count311
-\c@liststop=\count312
-\c@citecount=\count313
-\c@citetotal=\count314
-\c@multicitecount=\count315
-\c@multicitetotal=\count316
-\c@instcount=\count317
-\c@maxnames=\count318
-\c@minnames=\count319
-\c@maxitems=\count320
-\c@minitems=\count321
-\c@citecounter=\count322
-\c@maxcitecounter=\count323
-\c@savedcitecounter=\count324
-\c@uniquelist=\count325
-\c@uniquename=\count326
-\c@refsection=\count327
-\c@refsegment=\count328
-\c@maxextratitle=\count329
-\c@maxextratitleyear=\count330
-\c@maxextraname=\count331
-\c@maxextradate=\count332
-\c@maxextraalpha=\count333
-\c@abbrvpenalty=\count334
-\c@highnamepenalty=\count335
-\c@lownamepenalty=\count336
-\c@maxparens=\count337
-\c@parenlevel=\count338
-\blx@tempcnta=\count339
-\blx@tempcntb=\count340
-\blx@tempcntc=\count341
-\blx@maxsection=\count342
-\blx@maxsegment@0=\count343
-\blx@notetype=\count344
-\blx@parenlevel@text=\count345
-\blx@parenlevel@foot=\count346
-\blx@sectionciteorder@0=\count347
-\blx@entrysetcounter=\count348
-\blx@biblioinstance=\count349
+\c@tabx@nest=\count309
+\c@listtotal=\count310
+\c@listcount=\count311
+\c@liststart=\count312
+\c@liststop=\count313
+\c@citecount=\count314
+\c@citetotal=\count315
+\c@multicitecount=\count316
+\c@multicitetotal=\count317
+\c@instcount=\count318
+\c@maxnames=\count319
+\c@minnames=\count320
+\c@maxitems=\count321
+\c@minitems=\count322
+\c@citecounter=\count323
+\c@maxcitecounter=\count324
+\c@savedcitecounter=\count325
+\c@uniquelist=\count326
+\c@uniquename=\count327
+\c@refsection=\count328
+\c@refsegment=\count329
+\c@maxextratitle=\count330
+\c@maxextratitleyear=\count331
+\c@maxextraname=\count332
+\c@maxextradate=\count333
+\c@maxextraalpha=\count334
+\c@abbrvpenalty=\count335
+\c@highnamepenalty=\count336
+\c@lownamepenalty=\count337
+\c@maxparens=\count338
+\c@parenlevel=\count339
+\blx@tempcnta=\count340
+\blx@tempcntb=\count341
+\blx@tempcntc=\count342
+\blx@maxsection=\count343
+\blx@maxsegment@0=\count344
+\blx@notetype=\count345
+\blx@parenlevel@text=\count346
+\blx@parenlevel@foot=\count347
+\blx@sectionciteorder@0=\count348
+\blx@entrysetcounter=\count349
+\blx@biblioinstance=\count350
 \labelnumberwidth=\skip96
 \labelalphawidth=\skip97
 \biblabelsep=\skip98
@@ -680,9 +696,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language86
-\c@mincomprange=\count350
-\c@maxcomprange=\count351
-\c@mincompwidth=\count352
+\c@mincomprange=\count351
+\c@maxcomprange=\count352
+\c@mincompwidth=\count353
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -695,74 +711,74 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count353
-\c@savedafterword=\count354
-\c@annotator=\count355
-\c@savedannotator=\count356
-\c@author=\count357
-\c@savedauthor=\count358
-\c@bookauthor=\count359
-\c@savedbookauthor=\count360
-\c@commentator=\count361
-\c@savedcommentator=\count362
-\c@editor=\count363
-\c@savededitor=\count364
-\c@editora=\count365
-\c@savededitora=\count366
-\c@editorb=\count367
-\c@savededitorb=\count368
-\c@editorc=\count369
-\c@savededitorc=\count370
-\c@foreword=\count371
-\c@savedforeword=\count372
-\c@holder=\count373
-\c@savedholder=\count374
-\c@introduction=\count375
-\c@savedintroduction=\count376
-\c@namea=\count377
-\c@savednamea=\count378
-\c@nameb=\count379
-\c@savednameb=\count380
-\c@namec=\count381
-\c@savednamec=\count382
-\c@translator=\count383
-\c@savedtranslator=\count384
-\c@shortauthor=\count385
-\c@savedshortauthor=\count386
-\c@shorteditor=\count387
-\c@savedshorteditor=\count388
-\c@labelname=\count389
-\c@savedlabelname=\count390
-\c@institution=\count391
-\c@savedinstitution=\count392
-\c@lista=\count393
-\c@savedlista=\count394
-\c@listb=\count395
-\c@savedlistb=\count396
-\c@listc=\count397
-\c@savedlistc=\count398
-\c@listd=\count399
-\c@savedlistd=\count400
-\c@liste=\count401
-\c@savedliste=\count402
-\c@listf=\count403
-\c@savedlistf=\count404
-\c@location=\count405
-\c@savedlocation=\count406
-\c@organization=\count407
-\c@savedorganization=\count408
-\c@origlocation=\count409
-\c@savedoriglocation=\count410
-\c@origpublisher=\count411
-\c@savedorigpublisher=\count412
-\c@publisher=\count413
-\c@savedpublisher=\count414
-\c@language=\count415
-\c@savedlanguage=\count416
-\c@origlanguage=\count417
-\c@savedoriglanguage=\count418
-\c@pageref=\count419
-\c@savedpageref=\count420
+\c@afterword=\count354
+\c@savedafterword=\count355
+\c@annotator=\count356
+\c@savedannotator=\count357
+\c@author=\count358
+\c@savedauthor=\count359
+\c@bookauthor=\count360
+\c@savedbookauthor=\count361
+\c@commentator=\count362
+\c@savedcommentator=\count363
+\c@editor=\count364
+\c@savededitor=\count365
+\c@editora=\count366
+\c@savededitora=\count367
+\c@editorb=\count368
+\c@savededitorb=\count369
+\c@editorc=\count370
+\c@savededitorc=\count371
+\c@foreword=\count372
+\c@savedforeword=\count373
+\c@holder=\count374
+\c@savedholder=\count375
+\c@introduction=\count376
+\c@savedintroduction=\count377
+\c@namea=\count378
+\c@savednamea=\count379
+\c@nameb=\count380
+\c@savednameb=\count381
+\c@namec=\count382
+\c@savednamec=\count383
+\c@translator=\count384
+\c@savedtranslator=\count385
+\c@shortauthor=\count386
+\c@savedshortauthor=\count387
+\c@shorteditor=\count388
+\c@savedshorteditor=\count389
+\c@labelname=\count390
+\c@savedlabelname=\count391
+\c@institution=\count392
+\c@savedinstitution=\count393
+\c@lista=\count394
+\c@savedlista=\count395
+\c@listb=\count396
+\c@savedlistb=\count397
+\c@listc=\count398
+\c@savedlistc=\count399
+\c@listd=\count400
+\c@savedlistd=\count401
+\c@liste=\count402
+\c@savedliste=\count403
+\c@listf=\count404
+\c@savedlistf=\count405
+\c@location=\count406
+\c@savedlocation=\count407
+\c@organization=\count408
+\c@savedorganization=\count409
+\c@origlocation=\count410
+\c@savedoriglocation=\count411
+\c@origpublisher=\count412
+\c@savedorigpublisher=\count413
+\c@publisher=\count414
+\c@savedpublisher=\count415
+\c@language=\count416
+\c@savedlanguage=\count417
+\c@origlanguage=\count418
+\c@savedoriglanguage=\count419
+\c@pageref=\count420
+\c@savedpageref=\count421
 \shorthandwidth=\skip104
 \shortjournalwidth=\skip105
 \shortserieswidth=\skip106
@@ -788,7 +804,7 @@ Package: expl3 2020-12-03 L3 programming layer (loader)
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count421
+\l__kernel_color_stack_int=\count422
 \l__pdf_internal_box=\box101
 ))
 Package biblatex Info: expl3
@@ -810,19 +826,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count422
-\c@textcitetotal=\count423
-\c@textcitemaxnames=\count424
-\c@biburlbigbreakpenalty=\count425
-\c@biburlbreakpenalty=\count426
-\c@biburlnumpenalty=\count427
-\c@biburlucpenalty=\count428
-\c@biburllcpenalty=\count429
+\c@textcitecount=\count423
+\c@textcitetotal=\count424
+\c@textcitemaxnames=\count425
+\c@biburlbigbreakpenalty=\count426
+\c@biburlbreakpenalty=\count427
+\c@biburlnumpenalty=\count428
+\c@biburlucpenalty=\count429
+\c@biburllcpenalty=\count430
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count430
+\c@smartand=\count431
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -834,8 +850,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count431
-\c@bbx:relatedtotal=\count432
+\c@bbx:relatedcount=\count432
+\c@bbx:relatedtotal=\count433
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -860,46 +876,53 @@ File: biblatex.cfg
 Package biblatex Warning: 'firstinits' option is deprecated.
 (biblatex)                Please use 'giveninits' instead.
 
+) (/usr/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 21.
+(hyperref)                removing `\noindent' on input line 36.
 
 
 Package biblatex Warning: Patching footnotes failed.
 (biblatex)                Footnote detection will not work.
 
-\@quotelevel=\count433
-\@quotereset=\count434
+\@quotelevel=\count434
+\@quotereset=\count435
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 26.
+(biblatex)                Setting 'uniquename=init' on input line 41.
 
 (./report.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-Package hyperref Info: Link coloring OFF on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+Package hyperref Info: Link coloring OFF on input line 41.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -909,16 +932,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count435
+\c@section@level=\count436
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 26.
+LaTeX Info: Redefining \selectfont on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -955,14 +978,14 @@ LaTeX Info: Redefining \selectfont on input line 26.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \langwohyphens=\language87
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 26.
+LaTeX Info: Redefining \showhyphens on input line 41.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -971,16 +994,16 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count436
+\scratchcounter=\count437
 \scratchdimen=\dimen258
 \scratchbox=\box102
-\nofMPsegments=\count437
-\nofMParguments=\count438
+\nofMPsegments=\count438
+\nofMParguments=\count439
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count439
+\MPscratchCnt=\count440
 \MPscratchDim=\dimen259
-\MPnumerator=\count440
-\makeMPintoPDFobject=\count441
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1003,49 +1026,49 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (./report.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 28
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 43
 .
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 28.
+(Font)              scaled to size 8.99994pt on input line 43.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 28.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 28.
+(Font)              scaled to size 16.19989pt on input line 43.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 43.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-28.
+43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-28.
+43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-28.
+43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-28.
+43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-28.
+43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1054,12 +1077,56 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 18.75613pt on input line 43.
+
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 14.25455pt on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.25378pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 18.75613pt on input line 43.
+
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 14.25455pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.25378pt on input line 43.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.39984pt on input line 28.
-LaTeX Font Info:    Calculating math sizes for size <26> on input line 28.
+(Font)              scaled to size 23.39984pt on input line 43.
+LaTeX Font Info:    Calculating math sizes for size <26> on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 27.0922pt on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 20.5899pt on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 16.25548pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 27.0922pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 20.5899pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 16.25548pt on input line 43.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 28.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 28.
+(Font)              scaled to size 12.59991pt on input line 43.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 14.5881pt on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.08687pt on input line 43.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.75294pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 14.5881pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.08687pt on input line 43.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.75294pt on input line 43.
  [1
 
 
@@ -1070,6 +1137,27 @@ LaTeX Font Info:    Calculating math sizes for size <14> on input line 28.
 
 
 ]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 49.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 49.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 49.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 49.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 49.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 49.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 49.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 49.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 49.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 49.
+
 
 LaTeX Warning: Marginpar on page 1 moved.
 
@@ -1083,7 +1171,7 @@ LaTeX Warning: Marginpar on page 1 moved.
 LaTeX Warning: Marginpar on page 1 moved.
 
 
-Overfull \hbox (0.13698pt too wide) in paragraph at lines 46--50
+Overfull \hbox (0.13698pt too wide) in paragraph at lines 61--65
 \T1/pplj/m/n/10 (+9) point made about discussion of energy, there is literature
  to suggest 
  []
@@ -1095,7 +1183,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 
+l.65 
       [1
 
 
@@ -1110,7 +1198,7 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (0.10606pt too wide) in paragraph at lines 66--67
+Overfull \hbox (0.10606pt too wide) in paragraph at lines 81--82
 \T1/pplj/m/n/10 (+18) may be self de-vel-oped or in-deed through be-ing taught 
 in a man-ner 
  []
@@ -1119,7 +1207,7 @@ in a man-ner
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (0.1201pt too wide) in paragraph at lines 68--70
+Overfull \hbox (0.1201pt too wide) in paragraph at lines 83--85
 \T1/pplj/m/n/10 (+6) only constructing the models to employ but in changing the
  models 
  []
@@ -1131,14 +1219,14 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-70.
+85.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 	\item T
+l.87 	\item T
              here is evidence to suggest 'process' based models provide bett...
 [2]
 
@@ -1155,61 +1243,116 @@ LaTeX Warning: Marginpar on page 3 moved.
 LaTeX Warning: Marginpar on page 4 moved.
 
 
+Overfull \hbox (0.12646pt too wide) in paragraph at lines 108--110
+\T1/pplj/m/n/10 (+2) respectively). The Y9 group had covered electricity at at 
+a pre-GCSE 
+ []
+
+
 LaTeX Warning: Marginpar on page 4 moved.
 
 [4
 
+] [5]
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+[6
+
+
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 11
-0.
- (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
+<./pics//simple.png, id=107, 476.78125pt x 230.8625pt>
+File: ./pics//simple.png Graphic file (type png)
+<use ./pics//simple.png>
+Package pdftex.def Info: ./pics//simple.png  used on input line 148.
+(pdftex.def)             Requested size: 304.44447pt x 147.42387pt.
+<./pics//circ2.png, id=109, 654.445pt x 455.7025pt>
+File: ./pics//circ2.png Graphic file (type png)
+<use ./pics//circ2.png>
+Package pdftex.def Info: ./pics//circ2.png  used on input line 170.
+(pdftex.def)             Requested size: 304.44447pt x 211.98985pt.
+ [7 <./pics//simple.png> <./pics//circ2.png>]
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 182--184
+[]\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
+gh the 8 
+ []
+
+<./pics//circ3.png, id=119, 325.215pt x 618.31pt>
+File: ./pics//circ3.png Graphic file (type png)
+<use ./pics//circ3.png>
+Package pdftex.def Info: ./pics//circ3.png  used on input line 191.
+(pdftex.def)             Requested size: 152.22223pt x 289.41698pt.
+[8 <./pics//circ3.png>]
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 204--206
+[]\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
+gh the 8 
+ []
+
+[9]
+<./pics//Vary.png, id=136, 609.27625pt x 522.95375pt>
+File: ./pics//Vary.png Graphic file (type png)
+<use ./pics//Vary.png>
+Package pdftex.def Info: ./pics//Vary.png  used on input line 235.
+(pdftex.def)             Requested size: 304.44447pt x 261.31664pt.
+ [10 <./pics/vary.png>]
+<./pics//comp.png, id=146, 1122.1925pt x 708.6475pt>
+File: ./pics//comp.png Graphic file (type png)
+<use ./pics//comp.png>
+Package pdftex.def Info: ./pics//comp.png  used on input line 264.
+(pdftex.def)             Requested size: 304.44447pt x 192.24568pt.
+ [11 <./pics//comp.png>]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 27
+5.
+
+(/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 110.
+(Font)              scaled to size 8.50006pt on input line 275.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.13182pt too wide) in paragraph at lines 111--111
+Overfull \hbox (0.13182pt too wide) in paragraph at lines 275--275
 \T1/pplj/m/n/10 (+8) Understanding of Different Aspects in Resistive DC Circuit
 s''. 
  []
 
-[5
+[12
 
 ]
-Overfull \hbox (17.05309pt too wide) in paragraph at lines 111--111
+Overfull \hbox (17.05309pt too wide) in paragraph at lines 275--275
 \T1/pplj/m/n/10 (-20) 1982), pp. 45^^U55. \T1/pplj/m/sc/10/50ls (-20) issn\T1/p
 plj/m/n/10 (-20) : 0140-5284. \T1/pplj/m/sc/10/50ls (-20) doi\T1/pplj/m/n/10 (-
 20) : []$\T1/fvm/m/n/10 10 . 1080 / 0140528820040106$[]\T1/pplj/m/n/10 (-20) . 
  
  []
 
-[6] [7] (./report.aux)
+[13] [14] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2E534E1126113AE90B3314D25E4F9D41;252.
+(rerunfilecheck)             Checksum: B3A0E94273FC001C5637EC4B2D989AD1;531.
 Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 22403 strings out of 479383
- 368542 string characters out of 5875831
- 1151510 words of memory out of 5000000
- 38865 multiletter control sequences out of 15000+600000
- 494849 words of font info for 313 fonts, out of 8000000 for 9000
+ 23145 strings out of 479383
+ 377483 string characters out of 5875831
+ 1153558 words of memory out of 5000000
+ 39535 multiletter control sequences out of 15000+600000
+ 508362 words of font info for 361 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  97i,13n,100p,839b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/fpl/fplrc8a.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></u
-sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/
-fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
-tino/uplri8a.pfb>
-Output written on report.pdf (9 pages, 103443 bytes).
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.p
+fb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
+/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on report.pdf (16 pages, 260047 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 54801 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 55354 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -3,4 +3,8 @@
 \contentsline {chapter}{Background \& Outline}{1}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Methodology}{4}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendix A: Questionnaire}{6}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{12}{chapter*.5}%
 \contentsfinish 
