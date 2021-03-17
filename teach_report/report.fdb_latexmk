@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1615479380 "report.bcf" "report.bbl" "report" 1615482388
+["biber report"] 1615479380 "report.bcf" "report.bbl" "report" 1615967197
   "ref.bib" 1614332570 11298 e945a0e9828b31e5967c95310327dd9c ""
-  "report.bcf" 1615482388 108059 d16eb565303e6c721523c709e95adfef "pdflatex"
+  "report.bcf" 1615967197 108059 d16eb565303e6c721523c709e95adfef "pdflatex"
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1615482386 "report.tex" "report.pdf" "report" 1615482388
-  "/dev/null" 1615442999 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1615967195 "report.tex" "report.pdf" "report" 1615967197
+  "/dev/null" 1615966524 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-book.cls" 1613292990 2212 72b8d9b2edd5e439b6164c9cfea2517f ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-common.def" 1614246848 70890 39ee6270ae2a5eaafbeb4d9099c5adc6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1607249373 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -186,17 +186,17 @@
   "pics//comp.png" 1615292547 64574 eaedfe5f55869b912dce8f1cdcdbe136 ""
   "pics//simple.png" 1615289361 11139 9d4263a20ccc5d0817fef7bc2671d123 ""
   "pics/vary.png" 1615289361 38519 ab324bb9eff752d3c54e21c9519b5e36 ""
-  "report.aux" 1615482388 6377 f9e221cf8e44867e8ef6f6276bcfce27 "pdflatex"
+  "report.aux" 1615967197 6708 76bafdb1924c452f9402fa740b26719b "pdflatex"
   "report.bbl" 1615479381 46273 3708215f22cf43f4db900b7888b95b80 "biber report"
-  "report.out" 1615482388 610 223e328de24cddaf37c49d10095447fd "pdflatex"
-  "report.run.xml" 1615482388 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
-  "report.tex" 1615482386 23349 8e0970ee85e330ce9e57a153d516d3bb ""
-  "report.toc" 1615482388 583 fb0ccb7d40f9d647e0e3d74618adae62 "pdflatex"
+  "report.out" 1615967197 704 9b874d9beb0aebd0897b989ccfd6abbd "pdflatex"
+  "report.run.xml" 1615967197 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
+  "report.tex" 1615967195 28343 abac39b00ddd5e01570b0019a9723aa6 ""
+  "report.toc" 1615967197 671 67260dce14123b29f19e23126543826a "pdflatex"
   (generated)
-  "report.toc"
-  "report.out"
-  "report.bcf"
-  "report.aux"
-  "report.log"
   "report.pdf"
+  "report.aux"
+  "report.toc"
+  "report.log"
   "report.run.xml"
+  "report.bcf"
+  "report.out"

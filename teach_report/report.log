@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  11 MAR 2021 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  17 MAR 2021 07:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1259,95 +1259,101 @@ LaTeX Warning: Marginpar on page 6 moved.
 
 [6
 
-] [7]
+] [7] [8]
 
-LaTeX Warning: Marginpar on page 8 moved.
+LaTeX Warning: Marginpar on page 9 moved.
 
-[8
+[9
+
+] [10]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+[11
 
 
 ]
-<./pics//simple.png, id=127, 476.78125pt x 230.8625pt>
+<./pics//simple.png, id=146, 476.78125pt x 230.8625pt>
 File: ./pics//simple.png Graphic file (type png)
 <use ./pics//simple.png>
-Package pdftex.def Info: ./pics//simple.png  used on input line 186.
+Package pdftex.def Info: ./pics//simple.png  used on input line 209.
 (pdftex.def)             Requested size: 304.44447pt x 147.42387pt.
-<./pics//circ2.png, id=129, 654.445pt x 455.7025pt>
+<./pics//circ2.png, id=148, 654.445pt x 455.7025pt>
 File: ./pics//circ2.png Graphic file (type png)
 <use ./pics//circ2.png>
-Package pdftex.def Info: ./pics//circ2.png  used on input line 208.
+Package pdftex.def Info: ./pics//circ2.png  used on input line 231.
 (pdftex.def)             Requested size: 304.44447pt x 211.98985pt.
- [9 <./pics//simple.png> <./pics//circ2.png>]
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 220--222
+ [12 <./pics//simple.png> <./pics//circ2.png>]
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 243--245
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
 
-<./pics//circ3.png, id=139, 325.215pt x 618.31pt>
+<./pics//circ3.png, id=158, 325.215pt x 618.31pt>
 File: ./pics//circ3.png Graphic file (type png)
 <use ./pics//circ3.png>
-Package pdftex.def Info: ./pics//circ3.png  used on input line 229.
+Package pdftex.def Info: ./pics//circ3.png  used on input line 252.
 (pdftex.def)             Requested size: 152.22223pt x 289.41698pt.
-[10 <./pics//circ3.png>]
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 242--244
+[13 <./pics//circ3.png>]
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 265--267
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
 
-[11]
-<./pics//Vary.png, id=157, 609.27625pt x 522.95375pt>
+[14]
+<./pics//Vary.png, id=176, 609.27625pt x 522.95375pt>
 File: ./pics//Vary.png Graphic file (type png)
 <use ./pics//Vary.png>
-Package pdftex.def Info: ./pics//Vary.png  used on input line 273.
+Package pdftex.def Info: ./pics//Vary.png  used on input line 296.
 (pdftex.def)             Requested size: 304.44447pt x 261.31664pt.
- [12 <./pics/vary.png>]
-<./pics//comp.png, id=168, 1122.1925pt x 708.6475pt>
+ [15 <./pics/vary.png>]
+<./pics//comp.png, id=186, 1122.1925pt x 708.6475pt>
 File: ./pics//comp.png Graphic file (type png)
 <use ./pics//comp.png>
-Package pdftex.def Info: ./pics//comp.png  used on input line 302.
+Package pdftex.def Info: ./pics//comp.png  used on input line 325.
 (pdftex.def)             Requested size: 304.44447pt x 192.24568pt.
- [13 <./pics//comp.png>]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 31
-3.
+ [16 <./pics//comp.png>]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 33
+6.
 
 (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 313.
+(Font)              scaled to size 8.50006pt on input line 336.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.13182pt too wide) in paragraph at lines 313--313
+Overfull \hbox (0.13182pt too wide) in paragraph at lines 336--336
 \T1/pplj/m/n/10 (+8) Understanding of Different Aspects in Resistive DC Circuit
 s''. 
  []
 
-[14
+[17
 
 ]
-Overfull \hbox (17.05309pt too wide) in paragraph at lines 313--313
+Overfull \hbox (17.05309pt too wide) in paragraph at lines 336--336
 \T1/pplj/m/n/10 (-20) 1982), pp. 45^^U55. \T1/pplj/m/sc/10/50ls (-20) issn\T1/p
 plj/m/n/10 (-20) : 0140-5284. \T1/pplj/m/sc/10/50ls (-20) doi\T1/pplj/m/n/10 (-
 20) : []$\T1/fvm/m/n/10 10 . 1080 / 0140528820040106$[]\T1/pplj/m/n/10 (-20) . 
  
  []
 
-[15] [16] (./report.aux)
+[18] [19] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 223E328DE24CDDAF37C49D10095447FD;610.
+(rerunfilecheck)             Checksum: 9B874D9BEB0AEBD0897B989CCFD6ABBD;704.
 Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 23154 strings out of 479383
- 377553 string characters out of 5875831
- 1153560 words of memory out of 5000000
- 39536 multiletter control sequences out of 15000+600000
- 508721 words of font info for 362 fonts, out of 8000000 for 9000
+ 23183 strings out of 479383
+ 377844 string characters out of 5875831
+ 1153563 words of memory out of 5000000
+ 39539 multiletter control sequences out of 15000+600000
+ 512213 words of font info for 377 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 97i,13n,100p,839b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,13n,100p,940b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplm
@@ -1356,10 +1362,10 @@ mf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (18 pages, 270238 bytes).
+Output written on report.pdf (21 pages, 276604 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 55362 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 63562 words of extra memory for PDF output out of 74296 (max. 10000000)
 
