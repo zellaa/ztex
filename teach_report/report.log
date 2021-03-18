@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  18 MAR 2021 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  18 MAR 2021 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,7 +1262,13 @@ LaTeX Warning: Marginpar on page 6 moved.
 
 [6
 
-] [7] [8]
+] [7]
+Overfull \hbox (0.10464pt too wide) in paragraph at lines 166--167
+\OT1/pplx/m/n/10 6\OT1/zplm/m/n/10 /\OT1/pplx/m/n/10 23$ \T1/pplj/m/n/10 (+7) Y
+10 responses made reference to general confusion on voltage; 
+ []
+
+[8]
 
 LaTeX Warning: Marginpar on page 9 moved.
 
@@ -1291,12 +1297,12 @@ LaTeX Warning: Marginpar on page 11 moved.
 <./pics//simple.png, id=152, 476.78125pt x 230.8625pt>
 File: ./pics//simple.png Graphic file (type png)
 <use ./pics//simple.png>
-Package pdftex.def Info: ./pics//simple.png  used on input line 225.
+Package pdftex.def Info: ./pics//simple.png  used on input line 227.
 (pdftex.def)             Requested size: 304.44447pt x 147.42387pt.
 <./pics//circ2.png, id=154, 654.445pt x 455.7025pt>
 File: ./pics//circ2.png Graphic file (type png)
 <use ./pics//circ2.png>
-Package pdftex.def Info: ./pics//circ2.png  used on input line 277.
+Package pdftex.def Info: ./pics//circ2.png  used on input line 279.
 (pdftex.def)             Requested size: 304.44447pt x 211.98985pt.
 
 
@@ -1307,7 +1313,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Marginpar on page 13 moved.
 
 
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 304--305
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 306--307
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
@@ -1315,7 +1321,7 @@ gh the 8
 <./pics//circ3.png, id=164, 325.215pt x 618.31pt>
 File: ./pics//circ3.png Graphic file (type png)
 <use ./pics//circ3.png>
-Package pdftex.def Info: ./pics//circ3.png  used on input line 326.
+Package pdftex.def Info: ./pics//circ3.png  used on input line 328.
 (pdftex.def)             Requested size: 152.22223pt x 289.41698pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1325,7 +1331,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Marginpar on page 14 moved.
 
 
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 353--354
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 355--356
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
@@ -1340,7 +1346,7 @@ LaTeX Warning: Marginpar on page 14 moved.
 <./pics//Vary.png, id=180, 609.27625pt x 522.95375pt>
 File: ./pics//Vary.png Graphic file (type png)
 <use ./pics//Vary.png>
-Package pdftex.def Info: ./pics//Vary.png  used on input line 425.
+Package pdftex.def Info: ./pics//Vary.png  used on input line 427.
 (pdftex.def)             Requested size: 304.44447pt x 261.31664pt.
  [15 <./pics/vary.png>]
 
@@ -1350,25 +1356,31 @@ LaTeX Warning: Marginpar on page 16 moved.
 <./pics//comp.png, id=196, 1122.1925pt x 708.6475pt>
 File: ./pics//comp.png Graphic file (type png)
 <use ./pics//comp.png>
-Package pdftex.def Info: ./pics//comp.png  used on input line 493.
+Package pdftex.def Info: ./pics//comp.png  used on input line 495.
 (pdftex.def)             Requested size: 304.44447pt x 192.24568pt.
- [17 <./pics//comp.png>] [18
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+[17 <./pics//comp.png>] [18
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 52
-3.
-
-(/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
+7.
+ (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 523.
+(Font)              scaled to size 8.50006pt on input line 527.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.13182pt too wide) in paragraph at lines 523--523
+Overfull \hbox (0.13182pt too wide) in paragraph at lines 527--527
 \T1/pplj/m/n/10 (+8) Understanding of Different Aspects in Resistive DC Circuit
 s''. 
  []
@@ -1376,7 +1388,7 @@ s''.
 [19
 
 ]
-Overfull \hbox (17.05309pt too wide) in paragraph at lines 523--523
+Overfull \hbox (17.05309pt too wide) in paragraph at lines 527--527
 \T1/pplj/m/n/10 (-20) 1982), pp. 45^^U55. \T1/pplj/m/sc/10/50ls (-20) issn\T1/p
 plj/m/n/10 (-20) : 0140-5284. \T1/pplj/m/sc/10/50ls (-20) doi\T1/pplj/m/n/10 (-
 20) : []$\T1/fvm/m/n/10 10 . 1080 / 0140528820040106$[]\T1/pplj/m/n/10 (-20) . 
@@ -1389,11 +1401,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 23213 strings out of 479383
- 378233 string characters out of 5875831
+ 23218 strings out of 479383
+ 378273 string characters out of 5875831
  1167835 words of memory out of 5000000
  39553 multiletter control sequences out of 15000+600000
- 514813 words of font info for 386 fonts, out of 8000000 for 9000
+ 515094 words of font info for 390 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  97i,13n,100p,940b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -1404,7 +1416,7 @@ mf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (23 pages, 280408 bytes).
+Output written on report.pdf (23 pages, 282323 bytes).
 PDF statistics:
  309 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams
