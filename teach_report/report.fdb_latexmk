@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1615479380 "report.bcf" "report.bbl" "report" 1615967197
+["biber report"] 1616075641 "report.bcf" "report.bbl" "report" 1616075650
   "ref.bib" 1614332570 11298 e945a0e9828b31e5967c95310327dd9c ""
-  "report.bcf" 1615967197 108059 d16eb565303e6c721523c709e95adfef "pdflatex"
+  "report.bcf" 1616075650 108059 d16eb565303e6c721523c709e95adfef "pdflatex"
   (generated)
-  "report.blg"
   "report.bbl"
-["pdflatex"] 1615967195 "report.tex" "report.pdf" "report" 1615967197
-  "/dev/null" 1615966524 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "report.blg"
+["pdflatex"] 1616075648 "report.tex" "report.pdf" "report" 1616075650
+  "/dev/null" 1616071607 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-book.cls" 1613292990 2212 72b8d9b2edd5e439b6164c9cfea2517f ""
   "/home/sulch/.git_projects/ztex/texmf/tex/latex/local/tufte-common.def" 1614246848 70890 39ee6270ae2a5eaafbeb4d9099c5adc6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1607249373 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -119,6 +119,7 @@
   "/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def" 1607249373 4944 1ddc361527c0bcf3d7b9f9b0c3c28113 ""
   "/usr/share/texmf-dist/tex/latex/graphics/graphics.sty" 1607249373 18272 a8c6a275b34ab6717ceeb8fa04b104e2 ""
   "/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty" 1607249373 7919 20fdfdd783821971c55bc8ee918cbe63 ""
+  "/usr/share/texmf-dist/tex/latex/graphics/lscape.sty" 1607249373 1757 1eb057df64f13cee0efe9d12f933a1e9 ""
   "/usr/share/texmf-dist/tex/latex/graphics/trig.sty" 1607249373 3976 d7fa7d81d2870d509d25b17d0245e735 ""
   "/usr/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty" 1607185936 8764 aebf00b748cb52f2dcf0ac50d316cbcd ""
   "/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty" 1607249373 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
@@ -186,17 +187,17 @@
   "pics//comp.png" 1615292547 64574 eaedfe5f55869b912dce8f1cdcdbe136 ""
   "pics//simple.png" 1615289361 11139 9d4263a20ccc5d0817fef7bc2671d123 ""
   "pics/vary.png" 1615289361 38519 ab324bb9eff752d3c54e21c9519b5e36 ""
-  "report.aux" 1615967197 6708 76bafdb1924c452f9402fa740b26719b "pdflatex"
-  "report.bbl" 1615479381 46273 3708215f22cf43f4db900b7888b95b80 "biber report"
-  "report.out" 1615967197 704 9b874d9beb0aebd0897b989ccfd6abbd "pdflatex"
-  "report.run.xml" 1615967197 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
-  "report.tex" 1615967195 28343 abac39b00ddd5e01570b0019a9723aa6 ""
-  "report.toc" 1615967197 671 67260dce14123b29f19e23126543826a "pdflatex"
+  "report.aux" 1616075650 9166 c368403ecb29e7946df9884a81abc7ae "pdflatex"
+  "report.bbl" 1616075643 46273 3708215f22cf43f4db900b7888b95b80 "biber report"
+  "report.out" 1616075650 859 e3a901c16c6be3cb08995b3077646b1a "pdflatex"
+  "report.run.xml" 1616075650 2353 fd8bb975cce52feff1340cc280ab6c08 "pdflatex"
+  "report.tex" 1616075638 32598 2c60b5e6edfce50b3bcf64945cf84213 ""
+  "report.toc" 1616075650 770 c95721b2ded4b2665cdde574a8cc4f96 "pdflatex"
   (generated)
+  "report.run.xml"
+  "report.bcf"
   "report.pdf"
+  "report.out"
   "report.aux"
   "report.toc"
   "report.log"
-  "report.run.xml"
-  "report.bcf"
-  "report.out"
