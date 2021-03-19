@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  18 MAR 2021 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  19 MAR 2021 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,23 +1161,22 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 50.
 
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-Overfull \hbox (0.13698pt too wide) in paragraph at lines 62--66
-\T1/pplj/m/n/10 (+9) point made about discussion of energy, there is literature
- to suggest 
+Overfull \hbox (0.12224pt too wide) in paragraph at lines 50--56
+\T1/pplj/m/n/10 (+11) phys-i-cal pro-cesses which oc-cur in cir-cuits, the mech
+-a-nisms through 
  []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+
+LaTeX Warning: Marginpar on page 1 moved.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
@@ -1186,7 +1185,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 
+l.69 
       [1
 
 
@@ -1201,19 +1200,7 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (0.10606pt too wide) in paragraph at lines 82--83
-\T1/pplj/m/n/10 (+18) may be self de-vel-oped or in-deed through be-ing taught 
-in a man-ner 
- []
-
-
 LaTeX Warning: Marginpar on page 2 moved.
-
-
-Overfull \hbox (0.1201pt too wide) in paragraph at lines 84--86
-\T1/pplj/m/n/10 (+6) only constructing the models to employ but in changing the
- models 
- []
 
 
 LaTeX Warning: Marginpar on page 2 moved.
@@ -1222,14 +1209,14 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-86.
+90.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 	\item T
+l.92 	\item T
              here is evidence to suggest 'process' based models provide bett...
 [2]
 
@@ -1246,7 +1233,7 @@ LaTeX Warning: Marginpar on page 3 moved.
 LaTeX Warning: Marginpar on page 4 moved.
 
 
-Overfull \hbox (0.12646pt too wide) in paragraph at lines 109--111
+Overfull \hbox (0.12646pt too wide) in paragraph at lines 113--115
 \T1/pplj/m/n/10 (+2) respectively). The Y9 group had covered electricity at at 
 a pre-GCSE 
  []
@@ -1260,15 +1247,32 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 6 moved.
 
+
+Overfull \hbox (0.15752pt too wide) in paragraph at lines 131--138
+\T1/pplj/m/n/10 (+19) nevertheless common. We present a detailed breakdown by s
+ection 
+ []
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
 [6
 
-] [7]
-Overfull \hbox (0.10464pt too wide) in paragraph at lines 166--167
+]
+Overfull \hbox (0.10464pt too wide) in paragraph at lines 173--174
 \OT1/pplx/m/n/10 6\OT1/zplm/m/n/10 /\OT1/pplx/m/n/10 23$ \T1/pplj/m/n/10 (+7) Y
 10 responses made reference to general confusion on voltage; 
  []
 
-[8]
+[7] [8]
+Overfull \hbox (0.11685pt too wide) in paragraph at lines 186--191
+\T1/pplj/m/n/10 (+12) demon-strated in the ques-tions where stu-dents were aske
+d to jus-tify 
+ []
+
 
 LaTeX Warning: Marginpar on page 9 moved.
 
@@ -1297,12 +1301,12 @@ LaTeX Warning: Marginpar on page 11 moved.
 <./pics//simple.png, id=152, 476.78125pt x 230.8625pt>
 File: ./pics//simple.png Graphic file (type png)
 <use ./pics//simple.png>
-Package pdftex.def Info: ./pics//simple.png  used on input line 227.
+Package pdftex.def Info: ./pics//simple.png  used on input line 237.
 (pdftex.def)             Requested size: 304.44447pt x 147.42387pt.
 <./pics//circ2.png, id=154, 654.445pt x 455.7025pt>
 File: ./pics//circ2.png Graphic file (type png)
 <use ./pics//circ2.png>
-Package pdftex.def Info: ./pics//circ2.png  used on input line 279.
+Package pdftex.def Info: ./pics//circ2.png  used on input line 289.
 (pdftex.def)             Requested size: 304.44447pt x 211.98985pt.
 
 
@@ -1313,7 +1317,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Marginpar on page 13 moved.
 
 
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 306--307
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 316--317
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
@@ -1321,7 +1325,7 @@ gh the 8
 <./pics//circ3.png, id=164, 325.215pt x 618.31pt>
 File: ./pics//circ3.png Graphic file (type png)
 <use ./pics//circ3.png>
-Package pdftex.def Info: ./pics//circ3.png  used on input line 328.
+Package pdftex.def Info: ./pics//circ3.png  used on input line 338.
 (pdftex.def)             Requested size: 152.22223pt x 289.41698pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1331,7 +1335,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Marginpar on page 14 moved.
 
 
-Overfull \hbox (0.10538pt too wide) in paragraph at lines 355--356
+Overfull \hbox (0.10538pt too wide) in paragraph at lines 365--366
 []\T1/pplj/m/n/10 (+14) Compared to the 2 ohm resistor, the current going throu
 gh the 8 
  []
@@ -1346,7 +1350,7 @@ LaTeX Warning: Marginpar on page 14 moved.
 <./pics//Vary.png, id=180, 609.27625pt x 522.95375pt>
 File: ./pics//Vary.png Graphic file (type png)
 <use ./pics//Vary.png>
-Package pdftex.def Info: ./pics//Vary.png  used on input line 427.
+Package pdftex.def Info: ./pics//Vary.png  used on input line 437.
 (pdftex.def)             Requested size: 304.44447pt x 261.31664pt.
  [15 <./pics/vary.png>]
 
@@ -1356,7 +1360,7 @@ LaTeX Warning: Marginpar on page 16 moved.
 <./pics//comp.png, id=196, 1122.1925pt x 708.6475pt>
 File: ./pics//comp.png Graphic file (type png)
 <use ./pics//comp.png>
-Package pdftex.def Info: ./pics//comp.png  used on input line 495.
+Package pdftex.def Info: ./pics//comp.png  used on input line 505.
 (pdftex.def)             Requested size: 304.44447pt x 192.24568pt.
 
 
@@ -1368,19 +1372,19 @@ LaTeX Warning: Marginpar on page 17 moved.
 [17 <./pics//comp.png>] [18
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 52
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 53
 7.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 527.
+(Font)              scaled to size 8.50006pt on input line 537.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.13182pt too wide) in paragraph at lines 527--527
+Overfull \hbox (0.13182pt too wide) in paragraph at lines 537--537
 \T1/pplj/m/n/10 (+8) Understanding of Different Aspects in Resistive DC Circuit
 s''. 
  []
@@ -1388,7 +1392,7 @@ s''.
 [19
 
 ]
-Overfull \hbox (17.05309pt too wide) in paragraph at lines 527--527
+Overfull \hbox (17.05309pt too wide) in paragraph at lines 537--537
 \T1/pplj/m/n/10 (-20) 1982), pp. 45^^U55. \T1/pplj/m/sc/10/50ls (-20) issn\T1/p
 plj/m/n/10 (-20) : 0140-5284. \T1/pplj/m/sc/10/50ls (-20) doi\T1/pplj/m/n/10 (-
 20) : []$\T1/fvm/m/n/10 10 . 1080 / 0140528820040106$[]\T1/pplj/m/n/10 (-20) . 
@@ -1401,11 +1405,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 23218 strings out of 479383
- 378273 string characters out of 5875831
- 1167835 words of memory out of 5000000
+ 23224 strings out of 479383
+ 378323 string characters out of 5875831
+ 1168835 words of memory out of 5000000
  39553 multiletter control sequences out of 15000+600000
- 515094 words of font info for 390 fonts, out of 8000000 for 9000
+ 515680 words of font info for 395 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  97i,13n,100p,940b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -1416,7 +1420,7 @@ mf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (23 pages, 282323 bytes).
+Output written on report.pdf (23 pages, 282486 bytes).
 PDF statistics:
  309 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams
