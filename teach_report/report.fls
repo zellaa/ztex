@@ -1267,6 +1267,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb

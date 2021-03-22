@@ -10,7 +10,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Appendix A: Questionnaire}{11}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix B: Responses}{18}{chapter*.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{19}{chapter*.8}%
+\contentsline {chapter}{Bibliography}{18}{chapter*.7}%
 \contentsfinish 
