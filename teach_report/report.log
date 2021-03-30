@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  23 MAR 2021 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.8)  30 MAR 2021 06:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1407,7 +1407,7 @@ public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (22 pages, 293005 bytes).
+Output written on report.pdf (22 pages, 293021 bytes).
 PDF statistics:
  302 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
