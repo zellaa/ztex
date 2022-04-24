@@ -1,0 +1,1188 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{afra2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e179b3615c4453c07a93d9439127a69e}{%
+           family={Afra},
+           familyi={A\bibinitperiod},
+           given={Nada\bibnamedelima Chatila},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42f3bfaa2143736ff482f589273f8737}{%
+           family={Osta},
+           familyi={O\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f71c8fb8fcc5a4d17f56663c120e8f3}{%
+           family={Zoubeir},
+           familyi={Z\bibinitperiod},
+           given={Wassim},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \strng{fullhash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \strng{bibnamehash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \strng{authorbibnamehash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \strng{authornamehash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \strng{authorfullhash}{6c8edf29196ca9bd2320aa36a6fc6531}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1573-1774}
+      \field{journaltitle}{International Journal of Science and Mathematics Education}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Int J of Sci and Math Educ}
+      \field{title}{Students’ {{Alternative Conceptions}} about {{Electricity}} and {{Effect}} of {{Inquiry}}-{{Based Teaching Strategies}}}
+      \field{volume}{7}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{103\bibrangedash 132}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/s10763-007-9106-7
+      \endverb
+    \endentry
+    \entry{ates2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c9face18f6c5b0b962116fd509a2c0a8}{%
+           family={Ates},
+           familyi={A\bibinitperiod},
+           given={Salih},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \strng{fullhash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \strng{bibnamehash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \strng{authorbibnamehash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \strng{authornamehash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \strng{authorfullhash}{c9face18f6c5b0b962116fd509a2c0a8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{2692-241X}
+      \field{journaltitle}{The Electronic Journal for Research in Science \& Mathematics Education}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{The {{Effects}} of {{Learning Cycle}} on {{College Students}}' {{Understanding}} of {{Different Aspects}} in {{Resistive DC Circuits}}}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \keyw{College,Education,Resistive DC Circuits,Science,Students}
+    \endentry
+    \entry{bagno2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=02877560f4316f27e04fc05f64b4b7e2}{%
+           family={Bagno},
+           familyi={B\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c953740c6e9554efb92549d4ecbf2bb0}{%
+           family={Eylon},
+           familyi={E\bibinitperiod},
+           given={Bat-Sheva},
+           giveni={B\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2dfae194f0a6fd518346fbd58b19d2e}{%
+           family={Ganiel},
+           familyi={G\bibinitperiod},
+           given={Uri},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association of Physics Teachers}%
+      }
+      \strng{namehash}{06bdfa6408f192753746f906d2655ba1}
+      \strng{fullhash}{06bdfa6408f192753746f906d2655ba1}
+      \strng{bibnamehash}{06bdfa6408f192753746f906d2655ba1}
+      \strng{authorbibnamehash}{06bdfa6408f192753746f906d2655ba1}
+      \strng{authornamehash}{06bdfa6408f192753746f906d2655ba1}
+      \strng{authorfullhash}{06bdfa6408f192753746f906d2655ba1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{21}
+      \field{issn}{0002-9505}
+      \field{journaltitle}{American Journal of Physics}
+      \field{month}{6}
+      \field{number}{S1}
+      \field{shortjournal}{American Journal of Physics}
+      \field{shorttitle}{From Fragmented Knowledge to a Knowledge Structure}
+      \field{title}{From Fragmented Knowledge to a Knowledge Structure: {{Linking}} the Domains of Mechanics and Electromagnetism}
+      \field{volume}{68}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{S16\bibrangedash S26}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1119/1.19515
+      \endverb
+    \endentry
+    \entry{chabay}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c9328006c58e2d2711243fb6dab081ab}{%
+           family={Chabay},
+           familyi={C\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3c98d575734f3d87da8ea2c2ec05997}{%
+           family={Sherwood},
+           familyi={S\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association of Physics Teachers}%
+      }
+      \strng{namehash}{cab0836263c7fb12f3df694efe9c6353}
+      \strng{fullhash}{cab0836263c7fb12f3df694efe9c6353}
+      \strng{bibnamehash}{cab0836263c7fb12f3df694efe9c6353}
+      \strng{authorbibnamehash}{cab0836263c7fb12f3df694efe9c6353}
+      \strng{authornamehash}{cab0836263c7fb12f3df694efe9c6353}
+      \strng{authorfullhash}{cab0836263c7fb12f3df694efe9c6353}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{issn}{0002-9505}
+      \field{journaltitle}{American Journal of Physics}
+      \field{month}{3}
+      \field{number}{4}
+      \field{shortjournal}{American Journal of Physics}
+      \field{title}{Restructuring the Introductory Electricity and Magnetism Course}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{329\bibrangedash 336}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1119/1.2165249
+      \endverb
+    \endentry
+    \entry{prim}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dec9c750eba36f322e6c1a213641e634}{%
+           family={{diSessa}},
+           familyi={d\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1f391ff23537bc29ceba9022b68ef33e}{%
+           family={Gunstone},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{fullhash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{bibnamehash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{authorbibnamehash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{authornamehash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{authorfullhash}{dec9c750eba36f322e6c1a213641e634}
+      \strng{editorbibnamehash}{1f391ff23537bc29ceba9022b68ef33e}
+      \strng{editornamehash}{1f391ff23537bc29ceba9022b68ef33e}
+      \strng{editorfullhash}{1f391ff23537bc29ceba9022b68ef33e}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Science Education}}}
+      \field{isbn}{978-94-007-2150-0}
+      \field{langid}{english}
+      \field{title}{Alternative {{Conceptions}} and {{P}}-{{Prims}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{34\bibrangedash 37}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/978-94-007-2150-0_87
+      \endverb
+      \keyw{Conceptual change}
+    \endentry
+    \entry{driver}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0055dca4115d759d7f385e2592e25400}{%
+           family={Driver},
+           familyi={D\bibinitperiod},
+           given={Rosalind},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95106cc219d9816cac49c05c80c82810}{%
+           family={Squires},
+           familyi={S\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac33eec432112160bd39802bc930ed0d}{%
+           family={Rushworth},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16ecae7d99e1e9a22f241dde8a80fbed}{%
+           family={Wood-Robinson},
+           familyi={W\bibinithyphendelim R\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Psychology Press}%
+      }
+      \strng{namehash}{83d1d98733892fb7ba10b782937dfd98}
+      \strng{fullhash}{05abafb4f29ea3d14627a4deed08c3c2}
+      \strng{bibnamehash}{83d1d98733892fb7ba10b782937dfd98}
+      \strng{authorbibnamehash}{83d1d98733892fb7ba10b782937dfd98}
+      \strng{authornamehash}{83d1d98733892fb7ba10b782937dfd98}
+      \strng{authorfullhash}{05abafb4f29ea3d14627a4deed08c3c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-415-09765-9}
+      \field{langid}{english}
+      \field{pagetotal}{464}
+      \field{shorttitle}{Making {{Sense}} of {{Secondary Science}}}
+      \field{title}{Making {{Sense}} of {{Secondary Science}}: {{Research Into Children}}'s {{Ideas}}}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{Education / General}
+    \endentry
+    \entry{eylon1990}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d6341f1f8144ef86f647ab3670ba0236}{%
+           family={Eylon},
+           familyi={E\bibinitperiod},
+           given={Bat‐Sheva},
+           giveni={B\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2dfae194f0a6fd518346fbd58b19d2e}{%
+           family={Ganiel},
+           familyi={G\bibinitperiod},
+           given={Uri},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34acd201e875ff960a11637292effa56}
+      \strng{fullhash}{34acd201e875ff960a11637292effa56}
+      \strng{bibnamehash}{34acd201e875ff960a11637292effa56}
+      \strng{authorbibnamehash}{34acd201e875ff960a11637292effa56}
+      \strng{authornamehash}{34acd201e875ff960a11637292effa56}
+      \strng{authorfullhash}{34acd201e875ff960a11637292effa56}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0950-0693, 1464-5289}
+      \field{journaltitle}{International Journal of Science Education}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{International Journal of Science Education}
+      \field{shorttitle}{Macro‐micro Relationships}
+      \field{title}{Macro‐micro Relationships: The Missing Link between Electrostatics and Electrodynamics in Students’ Reasoning}
+      \field{volume}{12}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{79\bibrangedash 94}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/0950069900120107
+      \endverb
+    \endentry
+    \entry{gupta2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8584415db0a5072a19b24dfca8036c1b}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Ayush},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67ee4ad38d9661e2a4e773f8b41b4dc6}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e434acea696c22036a2440f8e4ca426}{%
+           family={Redish},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{2b5726bc802a6593cc627afef87a10d4}
+      \strng{fullhash}{2b5726bc802a6593cc627afef87a10d4}
+      \strng{bibnamehash}{2b5726bc802a6593cc627afef87a10d4}
+      \strng{authorbibnamehash}{2b5726bc802a6593cc627afef87a10d4}
+      \strng{authornamehash}{2b5726bc802a6593cc627afef87a10d4}
+      \strng{authorfullhash}{2b5726bc802a6593cc627afef87a10d4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{issn}{1050-8406}
+      \field{journaltitle}{Journal of the Learning Sciences}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{The {{Case}} for {{Dynamic Models}} of {{Learners}}' {{Ontologies}} in {{Physics}}}
+      \field{volume}{19}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{285\bibrangedash 321}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1080/10508406.2010.491751
+      \endverb
+    \endentry
+    \entry{gutwill99}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c63e779de16e29e9be0767fca79a3f05}{%
+           family={Gutwill},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7e7c57e13e0bfc61d809d60c9a4b6e6}{%
+           family={Frederiksen},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222e61cdc6e59fdd125af7dfd87b5110}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Barbara\bibnamedelima Y.},
+           giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{5340f6e21a734a06443021286e3394aa}
+      \strng{fullhash}{5340f6e21a734a06443021286e3394aa}
+      \strng{bibnamehash}{5340f6e21a734a06443021286e3394aa}
+      \strng{authorbibnamehash}{5340f6e21a734a06443021286e3394aa}
+      \strng{authornamehash}{5340f6e21a734a06443021286e3394aa}
+      \strng{authorfullhash}{5340f6e21a734a06443021286e3394aa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{0737-0008}
+      \field{journaltitle}{Cognition and Instruction}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shorttitle}{Making {{Their Own Connections}}}
+      \field{title}{Making {{Their Own Connections}}: {{Students}}' {{Understanding}} of {{Multiple Models}} in {{Basic Electricity}}}
+      \field{volume}{17}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{249\bibrangedash 282}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1207/S1532690XCI1703_2
+      \endverb
+    \endentry
+    \entry{hartel82}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3276b3b0eb4e50221b35a5394a2c2b00}{%
+           family={Härtel},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \strng{fullhash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \strng{bibnamehash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \strng{authorbibnamehash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \strng{authornamehash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \strng{authorfullhash}{3276b3b0eb4e50221b35a5394a2c2b00}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{0140-5284}
+      \field{journaltitle}{European Journal of Science Education}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{null}
+      \field{shorttitle}{The {{Electric Circuit}} as a {{System}}}
+      \field{title}{The {{Electric Circuit}} as a {{System}}: {{A New Approach}}}
+      \field{volume}{4}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \field{pages}{45\bibrangedash 55}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/0140528820040106
+      \endverb
+    \endentry
+    \entry{kucu2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0d5cd9b883c7ebb0981503f046a5fc22}{%
+           family={Küçüközer},
+           familyi={K\bibinitperiod},
+           given={Hüseyin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9920aeb957577362c8b04be7611a2656}{%
+           family={Kocakülah},
+           familyi={K\bibinitperiod},
+           given={Sabri},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \strng{fullhash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \strng{bibnamehash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \strng{authorbibnamehash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \strng{authornamehash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \strng{authorfullhash}{ee28bec1585c5c0ecfa149cd9cfc5aef}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Turkish Science Education}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Secondary {{School Students}}’ {{Misconceptions}} about {{Simple Electric Circuits}}}
+      \field{volume}{4}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{15}
+      \range{pages}{1}
+    \endentry
+    \entry{lawsonlc2001}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06f982eadb9710cecccce7a6a08d87bc}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={Anton\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06f982eadb9710cecccce7a6a08d87bc}
+      \strng{fullhash}{06f982eadb9710cecccce7a6a08d87bc}
+      \strng{bibnamehash}{06f982eadb9710cecccce7a6a08d87bc}
+      \strng{authorbibnamehash}{06f982eadb9710cecccce7a6a08d87bc}
+      \strng{authornamehash}{06f982eadb9710cecccce7a6a08d87bc}
+      \strng{authorfullhash}{06f982eadb9710cecccce7a6a08d87bc}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9266, 2157-6009}
+      \field{journaltitle}{Journal of Biological Education}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Biological Education}
+      \field{title}{Using the Learning Cycle to Teach Biology Concepts and Reasoning Patterns}
+      \field{volume}{35}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{165\bibrangedash 169}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/00219266.2001.9655772
+      \endverb
+    \endentry
+    \entry{lee2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9bb94a3f22918c6eda9cf5676cccd568}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yeung},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31c4f42837ddfbfeb1396400a116a9f4}{%
+           family={Law},
+           familyi={L\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{8b88eb8400721784c393aad2109a6e66}
+      \strng{fullhash}{8b88eb8400721784c393aad2109a6e66}
+      \strng{bibnamehash}{8b88eb8400721784c393aad2109a6e66}
+      \strng{authorbibnamehash}{8b88eb8400721784c393aad2109a6e66}
+      \strng{authornamehash}{8b88eb8400721784c393aad2109a6e66}
+      \strng{authorfullhash}{8b88eb8400721784c393aad2109a6e66}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0950-0693}
+      \field{journaltitle}{International Journal of Science Education}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Explorations in Promoting Conceptual Change in Electrical Concepts via Ontological Category Shift}
+      \field{volume}{23}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{111\bibrangedash 149}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1080/09500690119851
+      \endverb
+    \endentry
+    \entry{liege2003}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=cd0d02fb4aa184ea9384f8899dc25888}{%
+           family={Liégeois},
+           familyi={L\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f78d563633493f3f57158f020383ddc}{%
+           family={Chasseigne},
+           familyi={C\bibinitperiod},
+           given={G′erard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=172eecf19173632dce00bcb1de603ea4}{%
+           family={Papin},
+           familyi={P\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92b872ad8e740903cc5eabd54f8c62c0}{%
+           family={Mullet},
+           familyi={M\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{1219e2de1238256e5f7b3953bfec6b82}
+      \strng{fullhash}{1ae70370c8df28c7f1f60058e64bcd69}
+      \strng{bibnamehash}{1219e2de1238256e5f7b3953bfec6b82}
+      \strng{authorbibnamehash}{1219e2de1238256e5f7b3953bfec6b82}
+      \strng{authornamehash}{1219e2de1238256e5f7b3953bfec6b82}
+      \strng{authorfullhash}{1ae70370c8df28c7f1f60058e64bcd69}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0950-0693}
+      \field{journaltitle}{International Journal of Science Education}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Improving High School Students' Understanding of Potential Difference in Simple Electric Circuits}
+      \field{volume}{25}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1129\bibrangedash 1145}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/0950069022000017324
+      \endverb
+    \endentry
+    \entry{moodly19}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8268fa3717421566ee9555a48bb005e6}{%
+           family={Moodley},
+           familyi={M\bibinitperiod},
+           given={Kimera},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23da09c86ae548db20a6d5381b43894f}{%
+           family={Gaigher},
+           familyi={G\bibinitperiod},
+           given={Estelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \strng{fullhash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \strng{bibnamehash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \strng{authorbibnamehash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \strng{authornamehash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \strng{authorfullhash}{91ef7e502a9132fda2ddc2a535df69b8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1573-1898}
+      \field{journaltitle}{Research in Science Education}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Res Sci Educ}
+      \field{shorttitle}{Teaching {{Electric Circuits}}}
+      \field{title}{Teaching {{Electric Circuits}}: {{Teachers}}’ {{Perceptions}} and {{Learners}}’ {{Misconceptions}}}
+      \field{volume}{49}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{73\bibrangedash 89}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s11165-017-9615-5
+      \endverb
+    \endentry
+    \entry{NationalCurriculumEngland}{online}{}
+      \list{organization}{1}{%
+        {GOV.UK}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{shorttitle}{National Curriculum in {{England}}}
+      \field{title}{National Curriculum in {{England}}: Science Programmes of Study}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/sulch/Zotero/storage/5VTRZZ7U/national-curriculum-in-england-science-programmes-of-study.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study
+      \endverb
+    \endentry
+    \entry{osb}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=09125218b44729bb4f5edb09bdf597ae}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4949f6ebc33e78b77128bdcba371aec}{%
+           family={Freyberg},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=238852a580ec896d8338636d978b513c}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Beverley.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Auckland, N.Z.}%
+      }
+      \list{publisher}{1}{%
+        {Heinemann}%
+      }
+      \strng{namehash}{ff1e87c6f949abcec917ab8c546108b3}
+      \strng{fullhash}{ff1e87c6f949abcec917ab8c546108b3}
+      \strng{bibnamehash}{ff1e87c6f949abcec917ab8c546108b3}
+      \strng{authorbibnamehash}{ff1e87c6f949abcec917ab8c546108b3}
+      \strng{authornamehash}{ff1e87c6f949abcec917ab8c546108b3}
+      \strng{authorfullhash}{ff1e87c6f949abcec917ab8c546108b3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-86863-275-9 978-0-86863-275-9 0-435-57260-1 978-0-435-57260-0}
+      \field{langid}{english}
+      \field{title}{Learning in Science : The Implications of Children's Science}
+      \field{year}{1985}
+      \field{dateera}{ce}
+    \endentry
+    \entry{psillos}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ea51f0e42959c001ebc781815a208a5d}{%
+           family={Psillos},
+           familyi={P\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7efbfd3c7e41548d1f2fad8ff4fb959b}{%
+           family={Tiberghien},
+           familyi={T\bibinitperiod},
+           given={Andrée},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1709340c8448289c7b79f81cc19cc7b0}{%
+           family={Koumaras},
+           familyi={K\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{5f74d567995c56975637990fded154e6}
+      \strng{fullhash}{5f74d567995c56975637990fded154e6}
+      \strng{bibnamehash}{5f74d567995c56975637990fded154e6}
+      \strng{authorbibnamehash}{5f74d567995c56975637990fded154e6}
+      \strng{authornamehash}{5f74d567995c56975637990fded154e6}
+      \strng{authorfullhash}{5f74d567995c56975637990fded154e6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0950-0693}
+      \field{journaltitle}{International Journal of Science Education}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Voltage Presented as a Primary Concept in an Introductory Teaching Sequence on {{DC}} Circuits}
+      \field{volume}{10}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{pages}{29\bibrangedash 43}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1080/0950069880100104
+      \endverb
+    \endentry
+    \entry{mediating}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eb47be120c9081db2dfd61db594f2653}{%
+           family={Sencar},
+           familyi={S\bibinitperiod},
+           given={Selen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d248b9eb1421f05f863ae1fcd2f8bcfa}{%
+           family={Eryilmaz},
+           familyi={E\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{920e38081d7263c6cb74b3811d94ac76}
+      \strng{fullhash}{920e38081d7263c6cb74b3811d94ac76}
+      \strng{bibnamehash}{920e38081d7263c6cb74b3811d94ac76}
+      \strng{authorbibnamehash}{920e38081d7263c6cb74b3811d94ac76}
+      \strng{authornamehash}{920e38081d7263c6cb74b3811d94ac76}
+      \strng{authorfullhash}{920e38081d7263c6cb74b3811d94ac76}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0022-4308}
+      \field{journaltitle}{Journal of Research in Science Teaching}
+      \field{month}{8}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Research in Science Teaching}
+      \field{title}{Factors Mediating the Effect of Gender on Ninth-Grade {{Turkish}} Students' Misconceptions Concerning Electric Circuits}
+      \field{volume}{41}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{603\bibrangedash 616}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/tea.20016
+      \endverb
+    \endentry
+    \entry{shipstone_children}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6aacd06d431d318b77626b8e93d43e2}{%
+           family={Shipstone},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6aacd06d431d318b77626b8e93d43e2}
+      \strng{fullhash}{d6aacd06d431d318b77626b8e93d43e2}
+      \strng{bibnamehash}{d6aacd06d431d318b77626b8e93d43e2}
+      \strng{authorbibnamehash}{d6aacd06d431d318b77626b8e93d43e2}
+      \strng{authornamehash}{d6aacd06d431d318b77626b8e93d43e2}
+      \strng{authorfullhash}{d6aacd06d431d318b77626b8e93d43e2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0140-5284}
+      \field{journaltitle}{European Journal of Science Education}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{European Journal of Science Education}
+      \field{title}{A Study of Children's Understanding of Electricity in Simple {{DC}} Circuits}
+      \field{volume}{6}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{pages}{185\bibrangedash 198}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/0140528840060208
+      \endverb
+    \endentry
+    \entry{shipstone_europe}{article}{}
+      \name{author}{7}{ul=1}{%
+        {{un=0,uniquepart=base,hash=d6aacd06d431d318b77626b8e93d43e2}{%
+           family={Shipstone},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7b7fe0adcb3d87935f50805cbd847f2}{%
+           family={Rhöneck},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={v},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=33c1904c2e478992b93459ff4cd9cee1}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90891810807d4edb6cf72e16806f9ca1}{%
+           family={Kärrqvist},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e987b37947a8f557ee7d6dbae843e69}{%
+           family={Dupin},
+           familyi={D\bibinitperiod},
+           given={J.-J.},
+           giveni={J\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7692c05c82908b5d235323957e6a7b16}{%
+           family={Johsua},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f77a6c1e5cc9e8970669c840626925f}{%
+           family={Licht},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{9b0b8d875cdb6c240f71e4a175188688}
+      \strng{fullhash}{b1ebfc6b4a7dc99cfa9617a33a985bac}
+      \strng{bibnamehash}{9b0b8d875cdb6c240f71e4a175188688}
+      \strng{authorbibnamehash}{9b0b8d875cdb6c240f71e4a175188688}
+      \strng{authornamehash}{9b0b8d875cdb6c240f71e4a175188688}
+      \strng{authorfullhash}{b1ebfc6b4a7dc99cfa9617a33a985bac}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0950-0693}
+      \field{journaltitle}{International Journal of Science Education}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{A Study of Students’ Understanding of Electricity in Five {{European}} Countries}
+      \field{volume}{10}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{pages}{303\bibrangedash 316}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/0950069880100306
+      \endverb
+    \endentry
+    \entry{slotta}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=683687f8afe8ffb48aa3839218e3718d}{%
+           family={Slotta},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{683687f8afe8ffb48aa3839218e3718d}
+      \strng{fullhash}{683687f8afe8ffb48aa3839218e3718d}
+      \strng{bibnamehash}{683687f8afe8ffb48aa3839218e3718d}
+      \strng{authorbibnamehash}{683687f8afe8ffb48aa3839218e3718d}
+      \strng{authornamehash}{683687f8afe8ffb48aa3839218e3718d}
+      \strng{authorfullhash}{683687f8afe8ffb48aa3839218e3718d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{issn}{1050-8406}
+      \field{journaltitle}{Journal of the Learning Sciences}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{In {{Defense}} of {{Chi}}'s {{Ontological Incompatibility Hypothesis}}}
+      \field{volume}{20}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{151\bibrangedash 162}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1080/10508406.2011.535691
+      \endverb
+    \endentry
+    \entry{so2003}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c5e20b49323fba2397cc361edc3db6b}{%
+           family={So},
+           familyi={S\bibinitperiod},
+           given={Winnie\bibnamedelima Wing-Mui},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c5e20b49323fba2397cc361edc3db6b}
+      \strng{fullhash}{0c5e20b49323fba2397cc361edc3db6b}
+      \strng{bibnamehash}{0c5e20b49323fba2397cc361edc3db6b}
+      \strng{authorbibnamehash}{0c5e20b49323fba2397cc361edc3db6b}
+      \strng{authornamehash}{0c5e20b49323fba2397cc361edc3db6b}
+      \strng{authorfullhash}{0c5e20b49323fba2397cc361edc3db6b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1573-1774}
+      \field{journaltitle}{International Journal of Science and Mathematics Education}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{International Journal of Science and Mathematics Education}
+      \field{shorttitle}{Learning {{Science}} through {{Investigations}}}
+      \field{title}{Learning {{Science}} through {{Investigations}}: {{An Experience}} with {{Hong Kong Primary School Children}}}
+      \field{volume}{1}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{175\bibrangedash 200}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1023/B:IJMA.0000016852.19000.af
+      \endverb
+    \endentry
+    \entry{suryadi2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=76d679cee6bddc080cd127c1227f51eb}{%
+           family={Suryadi},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6710da34a5eeeed98ea18cf5076422d}{%
+           family={Kusairi},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7860b8d65de8818ebe8b3e1cb550f0}{%
+           family={Husna},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d94d959b5ea7c18220c52e952d3fd182}
+      \strng{fullhash}{d94d959b5ea7c18220c52e952d3fd182}
+      \strng{bibnamehash}{d94d959b5ea7c18220c52e952d3fd182}
+      \strng{authorbibnamehash}{d94d959b5ea7c18220c52e952d3fd182}
+      \strng{authornamehash}{d94d959b5ea7c18220c52e952d3fd182}
+      \strng{authorfullhash}{d94d959b5ea7c18220c52e952d3fd182}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{issn}{2355-3812}
+      \field{issue}{2}
+      \field{journaltitle}{Jurnal Pendidikan Fisika Indonesia}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Comparative {{Study}} of {{Secondary School Students}}' and {{Pre}}-{{Service Teachers}}' {{Misconception}} about {{Simple Electric Circuit}}}
+      \field{volume}{16}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{111\bibrangedash 121}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.15294/jpfi.v16i2.21909
+      \endverb
+    \endentry
+    \entry{ugur}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9c5c3d32ade08271998621a18e5d6f2f}{%
+           family={Ugur},
+           familyi={U\bibinitperiod},
+           given={Gokhan},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d38157b6826368ab499ffdefe97d8376}{%
+           family={Dilber},
+           familyi={D\bibinitperiod},
+           given={Refik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e6003e73a5eb71b8313658474a00e10}{%
+           family={Senpolat},
+           familyi={S\bibinitperiod},
+           given={Yasemin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=875c52ce45cd1ea744b01156df176b51}{%
+           family={Duzgun},
+           familyi={D\bibinitperiod},
+           given={Bahattin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Eurasian Society of Educational Research Association}%
+      }
+      \strng{namehash}{0cb590cc070bfc14097bdfed653e73d9}
+      \strng{fullhash}{4a87115cb0f4947e8e0cf1856d234f8d}
+      \strng{bibnamehash}{0cb590cc070bfc14097bdfed653e73d9}
+      \strng{authorbibnamehash}{0cb590cc070bfc14097bdfed653e73d9}
+      \strng{authornamehash}{0cb590cc070bfc14097bdfed653e73d9}
+      \strng{authorfullhash}{4a87115cb0f4947e8e0cf1856d234f8d}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2165-8714}
+      \field{journaltitle}{European Journal of Educational Research}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{The {{Effects}} of {{Analogy}} on {{Students}}' {{Understanding}} of {{Direct Current Circuits}} and {{Attitudes}} towards {{Physics Lessons}}}
+      \field{volume}{1}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{211\bibrangedash 223}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

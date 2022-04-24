@@ -1,7 +1,8 @@
 % resume.cls
 
 \usepackage{xcolor}
-\definecolor{purply}{HTML}{66033c}
+%\definecolor{purply}{HTML}{66033c}
+\definecolor{purply}{HTML}{055c5b}
 % \documentstyle{resume}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,7 +81,7 @@
 % Used to create large resume section
 \newenvironment{rSection}[1]{
   \sectionskip
-  \textcolor{purply}{\bf \MakeUppercase{#1}}
+  \textcolor{purply}{\bf #1}
   %\MakeUppercase{\bf #1}
   \sectionlineskip
   \hrule

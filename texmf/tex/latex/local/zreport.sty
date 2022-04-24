@@ -1,20 +1,18 @@
-<+	+>	!comp!	!exe!
-\documentclass[a4paper]{article}
-%% define colours
+\ProvidesPackage{zreport}[zella's report package - 24 april 2022]
+%%%% define colours
 \usepackage{xcolor}
 \usepackage{sectsty}
 \definecolor{purply}{HTML}{055c5b}
 \definecolor{gurple}{HTML}{055c5b}
-%% maths stuff
+%%%% maths stuff
 \usepackage[]{amsmath}
 \usepackage{amssymb}
 \usepackage{url}
 \usepackage{cancel}
-%% pictures
+%%%% pictures
 \usepackage{graphicx}
 \usepackage{subcaption}
-\graphicspath{{./pics/}}
-%% pagestyle
+%%%% pagestyle
 \usepackage[margin=1in]{geometry}
 \usepackage[shortlabels]{enumitem}
 \usepackage{fancyhdr}
@@ -24,7 +22,7 @@
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 \fancyhead[L]{\color{gurple} \nouppercase{\rightmark}}
 \sectionfont{\color{purply}}
-%% code
+%%%% code
 \usepackage{listings}
 \lstset{frame=tb,
 	aboveskip=3mm,
@@ -37,37 +35,15 @@
 	breakatwhitespace=true,
 	tabsize=3
 }
-%% citations
+%%%% citations
 \usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
-\addbibresource{<++>}
 \usepackage[nottoc,notlot,notlof,numbib]{tocbibind}
-%% tikz
+%%%% tikz
 \usepackage{pgfplots}
 \usepackage{tikz}
 \pgfplotsset{compat=1.15}
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
-%% final styling
+%%%% final styling
 \usepackage[charter]{mathdesign}
-\title{\color{purply} \Huge <++>}
-\author{\LARGE  Zella Baig\\
-shil5321}
-%% put custom definitions here, eg:
-%\def\muu{\ensuremath\mu\ }
-\begin{document}
-\maketitle
-\thispagestyle{empty}
-\begin{abstract}
-	\noindent <++>
-\end{abstract}
-\newpage
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\setcounter{page}{1}
-\section{<++>}
-<++>
-\newpage
-\nocite{*}
-\printbibliography[heading=bibnumbered]
-\end{document}
+\endinput

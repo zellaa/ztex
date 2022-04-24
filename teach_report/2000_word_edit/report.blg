@@ -1,0 +1,17 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'report.blg'
+[96] biber:330> INFO - === Wed Oct 20, 2021, 15:27:18
+[113] Biber.pm:415> INFO - Reading 'report.bcf'
+[202] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[221] Biber.pm:4334> INFO - Processing section 0
+[234] Biber.pm:4523> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[236] bibtex.pm:1682> INFO - LaTeX decoding ...
+[289] bibtex.pm:1494> INFO - Found BibTeX data source 'ref.bib'
+[465] Utils.pm:395> WARN - ISBN '0-86863-275-9 978-0-86863-275-9 0-435-57260-1 978-0-435-57260-0' in entry 'osb' is invalid - run biber with '--validate_datamodel' for details.
+[570] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[570] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[570] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[570] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[609] bbl.pm:651> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[632] bbl.pm:754> INFO - Output to report.bbl
+[632] Biber.pm:128> INFO - WARNINGS: 1

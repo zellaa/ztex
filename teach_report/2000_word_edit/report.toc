@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Note for Assessor - MSc in Social Data Science}{1}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Background \& Outline}{2}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Methodology}{5}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{7}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{9}{chapter*.6}%
+\contentsfinish 

@@ -1,0 +1,31 @@
+<+	+>	!comp!	!exe!
+\documentclass[a4paper]{article}
+%%%% load custom preamble
+%%%% stored git folder, texmf
+\usepackage{zreport}
+%%%% other misc preliminaries
+\graphicspath{{./pics/}}
+\addbibresource{<++>}
+\title{\color{purply} \Huge <++>}
+\author{\LARGE  Zella Baig\\
+shil5321}
+%% put custom definitions here, eg:
+%\def\muu{\ensuremath\mu\ }
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\begin{abstract}
+\noindent 
+<++>
+\end{abstract}
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+\section{<++>}
+<++>
+\newpage
+\nocite{*}
+\printbibliography[heading=bibnumbered]
+\end{document}
