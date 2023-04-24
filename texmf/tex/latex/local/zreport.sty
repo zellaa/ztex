@@ -1,8 +1,8 @@
-\ProvidesPackage{zreport}[zella's report package - 24 april 2022]
+\ProvidesPackage{zreport}
 %%%% define colours
 \usepackage{xcolor}
 \usepackage{sectsty}
-\definecolor{purply}{HTML}{055c5b}
+\definecolor{purply}{HTML}{88527f}
 \definecolor{gurple}{HTML}{055c5b}
 %%%% maths stuff
 \usepackage[]{amsmath}
@@ -11,17 +11,32 @@
 \usepackage{cancel}
 %%%% pictures
 \usepackage{graphicx}
-\usepackage{subcaption}
+\usepackage[subrefformat=parens,labelformat=parens]{subfig}
 %%%% pagestyle
-\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage[textwidth=6.0in,textheight=9.0in]{geometry}
 \usepackage[shortlabels]{enumitem}
+\renewcommand{\baselinestretch}{1.25}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[R]{\color{gurple} Page \thepage}
+\fancyfoot[R]{\color{purply} Page \thepage}
 \renewcommand{\sectionmark}[1]{\markright{#1}}
-\fancyhead[L]{\color{gurple} \nouppercase{\rightmark}}
+\fancyhead[L]{\color{purply} \nouppercase{\rightmark}}
 \sectionfont{\color{purply}}
+\subsectionfont{\color{gurple}}
+\makeatletter
+
+
+% detach \eqref and \tag making
+%\renewcommand{\eqref}[1]{\textup{\eqreftagform@{\ref{#1}}}}
+%\let\eqreftagform@\tagform@
+\def\tagform@#1{%
+  \maketag@@@{\color{gurple}(\ignorespaces#1\unskip\@@italiccorr)}%
+}
+\makeatother
+
+%\patchcmd{\@eqnnum}{\normalcolor}{\color{gurple}}{\typeout{eqnnum patch: OK!}}{\typeout{eqnnum patch: Oh, dear!}}
 %%%% code
 \usepackage{listings}
 \lstset{frame=tb,
@@ -36,7 +51,12 @@
 	tabsize=3
 }
 %%%% citations
-\usepackage[backend=biber,citestyle=authoryear,bibstyle=numeric,firstinits=true,autocite=footnote]{biblatex}
+\usepackage{hyperref}
+\hypersetup{
+    allbordercolors = {gurple},
+}
+%\usepackage[backend=biber,citestyle=numeric-comp,bibstyle=abbrv,giveinits=true,hyperref=true,uniquename=init,maxbibnames=99]{biblatex} %autocite=footnote
+\usepackage[backend=biber,style=numeric,giveinits=true,hyperref=true,uniquename=init,maxbibnames=99]{biblatex} %autocite=footnote
 \usepackage[nottoc,notlot,notlof,numbib]{tocbibind}
 %%%% tikz
 \usepackage{pgfplots}
