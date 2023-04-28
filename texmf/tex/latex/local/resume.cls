@@ -2,7 +2,7 @@
 
 \usepackage{xcolor}
 %\definecolor{purply}{HTML}{66033c}
-\definecolor{purply}{HTML}{055c5b}
+\definecolor{purply}{HTML}{88527f}
 % \documentstyle{resume}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,7 +1,8 @@
-\ProvidesPackage{zreport}
+\ProvidesPackage{zthesis}
 %%%% define colours
 \usepackage{xcolor}
 \usepackage{sectsty}
+\usepackage{titlesec}
 \definecolor{purply}{HTML}{88527f}
 \definecolor{gurple}{HTML}{067472}
 \definecolor{greeny}{HTML}{376c43}
@@ -19,13 +20,15 @@
 \usepackage[shortlabels]{enumitem}
 \renewcommand{\baselinestretch}{1.25}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
 \fancyhf{}
 \fancyfoot[R]{\color{purply} Page \thepage}
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 \fancyhead[L]{\color{purply} \nouppercase{\rightmark}}
-%\chapterfont{\color{gurple}}
+\chapterfont{\color{gurple}}
 \sectionfont{\color{purply}}
+\titleformat{\chapter}{\normalfont\huge\bf\color{gurple}}{\thechapter.}{20pt}{\huge\it\bf}
 \subsectionfont{\color{gurple}}
 \makeatletter
 
@@ -71,17 +74,29 @@
 
 
 
-\usepackage{tocloft}
-\renewcommand{\cftsecfont}{\color{purply}}
-\renewcommand{\cfttoctitlefont}{\Huge\color{greeny}\headingfont} % tocloft
-\renewcommand{\cftsubsecfont}{\color{gurple}}
-\renewcommand{\cftsubsubsecfont}{\color{purply}}
 
-\renewcommand{\cftsecleader}{\color{purply}   
-%\cftdotfill{\cftsecdotsep}}
-\renewcommand{\cftsubsecleader}{\color{gurple} 
-%\cftdotfill{\cftsecdotsep}}
-\renewcommand{\cftsubsubsecleader}{\color{purply} 
-%\cftdotfill{\cftsecdotsep}}
-
+\usepackage[page]{appendix}
+\usepackage{amsthm}
+\usepackage{cancel}
+\usepackage[ruled]{algorithm2e}
+\renewcommand{\algorithmcfname}{Code}
+\newtheorem{lem}{Lemma}
+\newtheorem{thm}{Theorem}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\usepackage{physics}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newenvironment{ded}
+  {%\clearpage           
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \itshape            
+   \raggedleft        
+  }
+  {\par
+   \vspace{\stretch{3}}
+   \clearpage         
+  }
 \endinput
